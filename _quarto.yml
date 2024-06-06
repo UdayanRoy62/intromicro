@@ -17,14 +17,26 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
+    - introduction.qmd
     - data.qmd
     - results.qmd
     - d3graph.qmd
     - conclusion.qmd
+  page-navigation: true
 
 format:
   html:
     theme: cosmo
     code-fold: true
-
+    number-depth: 3
+    link-external-newwindow: true
+  pdf:
+    documentclass: book
+    include-in-header: 
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body: 
+      text: |
+        \printindex
 

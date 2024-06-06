@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Udayan Roy">
-<meta name="dcterms.date" content="2024-06-05">
+<meta name="dcterms.date" content="2024-06-06">
 
 <title>Introduction to Microeconomics: Lecture Notes</title>
 <style>
@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./data.html" rel="next">
+<link href="./introduction.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Preface</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -113,7 +113,13 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Economics</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -150,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#preface" id="toc-preface" class="nav-link active" data-scroll-target="#preface">Preface</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UdayanRoy62/intromicro/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UdayanRoy62/intromicro/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -176,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 5, 2024</p>
+      <p class="date">June 6, 2024</p>
     </div>
   </div>
   
@@ -188,8 +194,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<section id="preface" class="level1 unnumbered">
+<h1 class="unnumbered">Preface</h1>
+<p>These are my lecture notes for a course called <em>Introduction to Microeconomics</em> that I have taught for over three decades.</p>
+<p>The required textbook for my course is <em>Principles of Microeconomics</em> by <a href="https://simple.wikipedia.org/wiki/N._Gregory_Mankiw">N. Gregory Mankiw</a>. Although Mankiw’s book is excellent, I have constantly felt the need to make small adjustments. Until recently, I had been making these adjustments in the PowerPoint slides I use in the classroom. But the availability of new technology – especially <a href="https://www.r-project.org/"><em>R</em></a>, <a href="https://posit.co/download/rstudio-desktop/"><em>R Studio</em></a>, <a href="https://quarto.org/docs/books/"><em>quarto books</em></a>, and <a href="https://github.com/"><em>Github</em></a> – has made it easy for me to gather my slides and give them an online form that actually resembles a textbook.</p>
+<p>I would be happy to get feedback.</p>
 
 
 </section>
@@ -290,6 +299,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -608,8 +622,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./data.html" class="pagination-link" aria-label="Data">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Data</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./introduction.html" class="pagination-link" aria-label="Introduction to Economics">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Economics</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

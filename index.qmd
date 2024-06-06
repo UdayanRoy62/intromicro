@@ -1,1 +1,7 @@
-# Introduction
+# Preface {.unnumbered}
+
+These are my lecture notes for a course called *Introduction to Microeconomics* that I have taught for over three decades.
+
+The required textbook for my course is *Principles of Microeconomics* by [N. Gregory Mankiw](https://simple.wikipedia.org/wiki/N._Gregory_Mankiw). Although Mankiw's book is excellent, I have constantly felt the need to make small adjustments. Until recently, I had been making these adjustments in the PowerPoint slides I use in the classroom. But the availability of new technology -- especially [*R*](https://www.r-project.org/), [*R Studio*](https://posit.co/download/rstudio-desktop/), [*quarto books*](https://quarto.org/docs/books/), and [*Github*](https://github.com/) -- has made it easy for me to gather my slides and give them an online form that actually resembles a textbook.
+
+I would be happy to get feedback.
