@@ -40,7 +40,7 @@ The people’s representatives can then pick the policy they like best.
 
 We waste a lot of time stuck in traffic. Economists would want to find a way to reduce this waste of time. Building more roads may not always be possible, may not solve the problem, and may be costly in any case. Charging car owners for the use of a road may be the way to go. Investing in or subsidizing public transport is another option.
 
-Wasted Resources: Stuck in Traffic: News Item
+#### Wasted Resources: Stuck in Traffic: News Item
 
 [Charging Drivers for Road Use Is Popular With Economists, Less So With Drivers](https://www.wsj.com/articles/charging-drivers-for-road-use-is-popular-with-economists-less-so-with-drivers-11630245780) By David Harrison, The Wall Street Journal, Aug. 29, 2021
 
@@ -50,7 +50,11 @@ What can we do to reduce this waste of resources? Cut taxes to encourage people 
 
 ### Wasted Resources: Environment Destruction
 
+How can we ensure that the resources that sustain life on this planet are conserved?
+
 ### Addressing Ethical Imperatives: Health Care
+
+How can we ensure that people do not need to worry about something as basic as healthcare?
 
 ### Addressing Ethical Imperatives: Inequality 
 

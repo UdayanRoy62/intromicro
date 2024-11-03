@@ -1,0 +1,359 @@
+# Elasticity
+
+In @sec-supply_demand, we saw that:
+
+* The quantity demanded of a consumer good is affected by its price, the prices of other related goods, buyers’ incomes, etc., and
+* The quantity supplied of a good is affected by its price, the prices of raw materials, technology, etc.
+
+But these statements are pretty vague. 
+
+It would be more specific if we said that the quantity demanded of a consumer good increases when its price decreases, assuming that all the other factors that affect the quantity demanded are unchanged.
+
+But even this statement is a bit vague because it does not answer the "how much" question: By how much would the quantity demanded of a consumer good increase when its price decreases by a certain amount. 
+
+In this chapter, I will discuss how we could use the concept of *elasticity* to measure the effect of one variable on another. This will help us make statements that are *quantitative* rather than merely *qualitative*.
+
+## Definition of Elasticity
+
+Elasticity is a measure of the strength of the effect of one variable on another. In other words, elasticity is a measure of the *responsiveness* of one variable to another.
+
+Suppose there are two variables, *x* and *y*. Let *x* be the *cause* and *y* be the *consequence*. The “*x* elasticity of *y*” is a measure of the effect on *y* of changes in *x*, when all other factors that affect *y* are unchanged. In other words, the “*x* elasticity of *y*” is a measure of the responsiveness of *y* to changes in *x*, when all other factors that affect *y* are unchanged.
+
+But even this definition is not precise enough to *measure* the responsiveness of one variable to another. So, let's tighten up the definition.
+
+Key definition: The “*x* elasticity of *y*” is the percent increase in *y* when there is a one percent increase in *x*, and all other factors that affect *y* are unchanged.
+
+$$
+x \textrm{ elasticity of } y=\frac{\textrm{\% increase in } y}{\textrm{\% increase in }x}
+$$  {#eq-y_x_elasticity}
+
+## Four Important Elasticities
+
+
+### Four Important Elasticities: Price Elasticity of Demand
+
+Let *x*, the cause, be the *price* of a commodity. Let *y*, the consequence, be the *quantity demanded* of the commodity. The *price elasticity of demand* is the percent increase in the quantity demanded of a commodity when there is a one percent increase in the price of the commodity, and all other factors that affect quantity demanded are unchanged.
+
+\begin{equation*}
+\textrm{Price Elasticity of Demand}=\frac{\textrm{\% Increase in Quantity Demanded}}{\textrm{\% Increase in Price}}
+\end{equation*}
+
+### Four Important Elasticities: Income Elasticity of Demand
+
+Let *x*, the cause, be the *income* of the buyers. Let *y*, the consequence, be the *quantity demanded* of a commodity. The *income elasticity of demand* is the percent increase in the quantity demanded of a commodity when there is a one percent increase in the buyers’ income, and all other factors that affect quantity demanded are unchanged.
+
+$$
+\text{Income Elasticity of Demand}=\frac{\text{\% increase in quantity demanded}}{\text{\% increase in income}}
+$$
+
+### Four Important Elasticities: Cross Price Elasticity of Demand
+
+Let *x*, the cause, be the *price* of a commodity. Let *y*, the consequence, be the *quantity demanded of a different commodity*. The *cross-price elasticity of demand* is the percent increase in the quantity demanded of a commodity when there is a one percent increase in the price of another commodity, and all other factors that affect quantity demanded are unchanged.
+
+\begin{equation}
+\text{Cross Price Elasticity of Demand}=\frac{\text{\% Increase in Quantity Demanded of Good B}}{\text{\% Increase in the Price of Good A}}
+\end{equation}
+
+### Four Important Elasticities: Price Elasticity of Supply
+
+Let *x*, the cause, be the *price* of a commodity. Let *y*, the consequence, be the *quantity supplied* of the commodity. The *price elasticity of supply* is the percent increase in the quantity supplied of a commodity when there is a one percent increase in the price of the commodity, and all other factors that affect quantity supplied are unchanged.
+
+\begin{equation}
+\textrm{Price Elasticity of Supply}=\frac{\textrm{\% Increase in Quantity Supplied}}{\textrm{\% Increase in Price}}
+\end{equation}
+
+### What we need to know about each of our four elasticities
+
+For each of the four elasticities we have just seen, we need to know:
+
+* how to measure it, and
+* what makes it high in some situations and low in other situations, and
+* why is it useful
+
+## Price elasticity of demand (PED)
+
+The price elasticity of demand is a measure of how strongly the quantity demanded of a good responds to a change in the price of that good. Specifically, the price elasticity of demand is the percent increase in the quantity demanded of a commodity when there is a one percent increase in the price of the commodity, and all other factors that affect quantity demanded are unchanged.
+
+$$
+\textrm{Price Elasticity of Demand}=\frac{\textrm{\% Increase in Quantity Demanded}}{\textrm{\% Increase in Price}}
+$$ {#eq-q_p_elasticity}
+
+Note that @eq-q_p_elasticity is the same as @eq-y_x_elasticity except that the cause ($x$) is now the price and the consequence ($y$) is now the quantity demanded.
+
+With this definition, we may be able to numerically calculate the P.E.D. of, say, strawberry ice cream if we had the necessary data. For example, if on one occasion we observed that the price increased 10 percent and the quantity purchased decreased 20 percent, then, assuming that all other factors that affect the quantity demanded/purchased were unchanged, we can calculate that the price elasticity of demand strawberry ice cream is -2. 
+
+The price increase was +10 percent. As a decrease is expressed as a negative increase, the increase in quantity demanded was -20 percent. Therefore, a one percent increase in price caused a -20/+10 = -2 percent increase in quantity demanded. Therefore, in this case at least, the P.E.D. of strawberry ice cream is determined to be -2.
+
+\begin{equation*}
+\text{Price Elasticity of Demand}=\frac{\text{\% Increase in Quantity Demanded}}{\text{\% Increase in Price}}=\frac{-20}{+10}=-2
+\end{equation*}
+
+Recall that in @sec-supply_demand, we saw examples of numerical data on price and quantity demanded in demand schedules/tables and demand curves.
+
+### We often drop the negative sign in PED computations
+
+Recall the Law of Demand from @sec-supply_demand. It says that price and quantity demanded move in *opposite* directions (provided all the other factors that affect buyers’ decisions are unchanged). Therefore, the percent increase in price and the percent increase in quantity demanded will always be of opposite signs. Therefore, the P.E.D. formula in the previous slide will *always be negative*. For this reason, it is quite common to ignore the sign. 
+
+For the rest of this course, I will ignore the negative sign of the PED. Formally, I will add a negative sign to the PED formula to get rid of the unnecessary negative sign.
+
+$$
+\text{Price Elasticity of Demand}=-\frac{\text{\% Increase in Quantity Demanded}}{\text{\% Increase in Price}}=-\frac{-20}{+10}=+2
+$$ {#eq-PED_neg_sign_dropped}
+
+### What are some of the factors that the PED depends on?
+
+Which commodity will have the *lower* price elasticity of demand?
+
+* gasoline or movies?
+* insulin injections (for diabetes patients) or music downloads (on iTunes)?
+* alcoholic beverages in general or Miller beer?
+
+A 10 percent increase in gasoline prices reduces gasoline consumption by about 2.5 percent after a year and about 6 percent after five years. Why?
+
+Key Idea: P.E.D. of a consumer good tends to be higher:
+
+* if it has many close substitutes 
+* if it is a luxury commodity
+  * That is, if the good’s income elasticity of demand is high
+* if spending on the good is a large portion of total spending
+* if it is narrowly (rather than broadly) defined
+* if buyers are given more time to adjust to a price change
+
+## Income Elasticity of Demand (IED)
+
+Key Definition: The income elasticity of demand (IED) is the percent increase in the quantity demanded of a commodity when there is a one percent increase in the buyers’ incomes, and all other factors that affect quantity demanded are unchanged.
+
+$$
+\text{Income Elasticity of Demand}=\frac{\text{\% Increase in Quantity Demanded}}{\text{\% Increase in Income}}
+$$ {#eq-q_income_elasticity}
+
+
+Example: Suppose income increases 10%, and quantity demanded decreases 20%. Then
+income elasticity of demand is -20/+10 = -2.
+
+Note that IED can be positive, negative, or zero.
+
+### Normal Goods and Inferior Goods
+
+Normal Goods have I.E.D. > 0.
+Inferior Goods have I.E.D. < 0.
+
+An increase in income leads to an increase in the quantity demanded for normal goods, but decreases the quantity demanded for inferior goods. 
+
+### Necessities and Luxuries
+
+When I.E.D. < 1 for a commodity, it is called *income inelastic* or a *necessity*.
+
+Examples of necessities include food, fuel, clothing, utilities, and medical services.
+
+When I.E.D. > 1 for a commodity, it is called *income elastic* or a *luxury*.
+
+Examples of luxuries include sports cars, furs, and expensive foods.
+
+### High Income Elasticity Implies High Price Elasticity
+
+In the discussion of the Law of Demand in @sec-supply_demand, we saw that the effect of a change in the price of a good on its quantity demanded is the sum of:
+
+* The substitution effect, and
+* The income effect.
+
+The higher the IED, the bigger the income effect. Therefore, the higher the IED, the higher the PED. Low IED implies low PED. High IED implies high PED.
+
+## Computing percentage increases
+
+Consider the data in @tbl-pct_increases:
+
+| % Increase in Price  | % Increase in Quantity Demanded |
+| -------------------- | ------------------------------- |
+| 10                   | -20                             |
+
+: Hypothetical Data {#tbl-pct_increases}
+
+The price elasticity of demand is easy to calculate for @tbl-pct_increases, as shown in @eq-PED_neg_sign_dropped.
+
+Now consider the slightly different case of two rows of a demand schedule:
+
+
+
+But how do we calculate the PED in this case?
+Now, we’ll need to calculate the percent increases from the data
+And then plug them into the PED formula
+Price Elasticity of Demand: Calculation
+Step 1: We arbitrarily call one of the rows Row A and the other row Row B.
+Step 2: The percentage increase in price is:
+"Increase" /"Average" ×100
+(𝑃_𝐵−𝑃_𝐴)/((𝑃_𝐵+𝑃_𝐴)/2)×100
+
+(4−2)/((4+2)/2)×100=2/3×100=𝟔𝟔.𝟕
+
+Price Elasticity of Demand: Calculation
+Step 1: We arbitrarily call one of the rows Row A and the other row Row B.
+Step 3: The percentage increase in quantity demanded is:
+"Increase" /"Average" ×100
+(〖𝑄𝐷〗_𝐵−〖𝑄𝐷〗_𝐴)/((〖𝑄𝐷〗_𝐵+〖𝑄𝐷〗_𝐴)/2)×100
+
+(8−10)/((8+10)/2)×100=(−2)/9×100=−𝟐𝟐.𝟐
+
+Price Elasticity of Demand: Calculation
+The price elasticity of demand is now easy to calculate
+"PED"=−"% increase in Quantity Demanded" /"% increase in Price" =−(−22.2)/66.7=0.33
+So, a 66.6 percent increase in price caused a 22.2 percent decrease in the quantity demanded
+Therefore, a 1 percent increase in price caused a 0.33 percent decrease in the quantity demanded
+That’s the PED
+
+### Price Elasticity of Demand: Midpoint Formula
+
+The formula used here is called the midpoint formula.
+Note that you’ll get the same result if you switched the row names.
+Try it!
+Price Elasticity of Demand: Example
+Calculate the PED using the two points highlighted on this demand curve
+Step 1: Turn the prices and quantities for the two highlighted points into a demand schedule
+Step 2: Then calculate PED as in the previous example 
+Price Elasticity of Demand: Example
+The percentage increase in price is:
+(𝑃_𝐵−𝑃_𝐴)/((𝑃_𝐵+𝑃_𝐴)/2)×100=(4−5)/((4+5)/2)×100=−22.2
+The percentage increase in quantity demanded is:
+(〖𝑄𝐷〗_𝐵−〖𝑄𝐷〗_𝐴)/((〖𝑄𝐷〗_𝐵+〖𝑄𝐷〗_𝐴)/2)×100=(100−50)/((100+50)/2)×100=66.7
+"PED"=−"% increase in Quantity Demanded" /"% increase in Price" =−66.7/(−22.2)=3
+
+### PED and the shape of the demand curve
+
+Elastic, Unit-Elastic and Inelastic Demand
+Demand can be
+Inelastic
+Unit-elastic
+Elastic
+… depending on the magnitude of the P.E.D.
+Inelastic Demand: P.E.D. < 1
+Suppose:
+Price increases by 10%
+Quantity demanded decreases by 5%. 
+% change in quantity is smaller than the % change in price
+Here P.E.D. = -(-5/10) = 0.5 < 1
+Recall that I am ignoring the negative sign of the P.E.D.
+In this case, we say demand is inelastic
+Unit-Elastic Demand: P.E.D. = 1
+Suppose:
+Price increases by 10%
+Quantity demanded decreases by 10%. 
+% change in quantity is equal to the % change in price
+Here P.E.D. = -(-10/10) = 1
+Recall that I am ignoring the negative sign of the P.E.D.
+In this case, we say demand is unit-inelastic
+Elastic Demand: P.E.D. > 1
+Suppose:
+Price increases by 10%
+Quantity demanded decreases by 30%. 
+% change in quantity is greater than the % change in price
+Here P.E.D. = -(-30/10) = 3 > 1
+Recall that I am ignoring the negative sign of the P.E.D.
+In this case, we say demand is elastic
+Perfectly Inelastic and Perfectly Elastic Demand
+Key Definition: Perfectly Inelastic Demand 
+Quantity demanded does not respond at all to price changes. 
+P.E.D. = 0.
+Key Definition: Perfectly Elastic Demand
+Quantity demanded changes infinitely with any change in price. 
+P.E.D. = infinity.
+The Variety of Demand Curves
+Because P.E.D. measures how strongly quantity demanded responds to the price, it is closely related to the slope of the demand curve.
+Key Idea: The higher the price elasticity of demand, the flatter the demand curve.
+
+### PED affects the link between price and sales revenue
+
+Total revenue (TR) is the amount received by sellers from the sale of a good. It is usually computed as the price of the good (P) times the quantity sold (Q): $TR=P\times Q$.
+
+#### Total Revenue, Graphically
+
+Elasticity and Total Revenue: Inelastic Demand
+Suppose demand is inelastic
+Specifically, suppose
+Price increases by 10%, and
+Quantity demanded decreases by 4%. 
+Elasticity and Total Revenue: Elastic Demand
+Suppose demand is elastic
+Specifically, suppose
+Price increases by 10%, and
+Quantity demanded decreases by 25%. 
+Elasticity and Total Revenue: Unit-elastic Demand
+Suppose demand is unit-elastic
+Specifically, suppose
+Price increases by 10%, and
+Quantity demanded decreases by 10%. 
+
+#### Elasticity of a Linear Demand Curve
+
+Note that demand can change from elastic to unit-elastic to inelastic as the price changes. That is, in addition to the other factors discussed before, PED also depends on the price.
+
+## Other important elasticities
+
+### Cross Price Elasticity of Demand (CPED)
+
+The cross price elasticity of demand (CPED) measures the responsiveness of the quantity demanded of one good (Good B) to changes in the price of some other good (Good A). Specifically, the CPED for Good B with respect to Good A is:
+
+$$
+\text{Cross Price Elasticity of Demand}=\frac{\text{\% Increase in Quantity Demanded of Good B}}{\text{\% Increase in the Price of Good A}}
+$$ {#eq-CPED_BoverA}
+
+Let's consider and example: Suppose the price of Coke increases 2%, and the consumption of Pepsi increases 20%. The CPED for Coke with respect to Pepsi is +20/+2 = +10.
+
+Now, the CPED for Coke with respect to Pepsi may not be equal to the CPED for Pepsi with respect to Coke. However, we should probably expect these two CPEDs to at least have the same sign.
+
+The sign of the CPED gives us a way to distinguish between substitutes and complements.
+
+#### Cross Price Elasticity of Demand: substitutes and complements
+
+When the CPED between two goods is *positive*, the two goods are called *substitutes*.
+
+In the example involving Coke and Pepsi that we saw a few paragraphs back, an increase in the price of Coke led to an increase in the consumption of Pepsi, confirming our intuition that Coke and Pepsi are substitutes. And the changes in price and quantity demanded also yielded a positive CPED between Coke and Pepsi.
+
+When the CPED between two goods is *negative*, the two goods are called *complements*. 
+Suppose the price of gasoline increases 50% and the sale of cars decreases 10%. Then the CPED is -10/+50 = -0.2, which is negative. This is what one would expect, given our commonsense notion that gas and cars are complements.
+
+### Price Elasticity of Supply (PES)
+
+Price elasticity of supply is a measure of how strongly the quantity supplied of a good responds to a change in the price of that good. More specifically, the price elasticity of supply is the percent increase in the quantity supplied of a commodity when there is a one percent increase in the price of the commodity, and all other factors that affect quantity supplied are unchanged.
+
+$$
+\textrm{Price Elasticity of Supply}=\frac{\textrm{\% Increase in Quantity Supplied}}{\textrm{\% Increase in Price}}
+$$ {#eq-PES}
+
+#### Determinants of Elasticity of Supply (PES)
+
+What makes the price elasticity of supply high in some cases and low in others?
+
+The price elasticity of supply is high if the production technology enables sellers to increase production easily.
+
+Beach-front land has low price elasticity of supply because increases in the price of beach-front property cannot lead to the creation of more beach-front property. Books, cars, or manufactured goods, on the other hand, have elastic supply. As more of these items can be produced without any significant increase in per-unit production costs, even a small increase in price will induce a big increase in the quantity supplied. 
+
+Finally, if suppliers have more time to respond to a price change then their quantity supplied will also respond more. So, PES is likely to be larger in the long run than in the short run. In the short run, the availability of various productive resources may be fixed. For example, a factory that needs an additional unit of a sophisticated piece of machinery may have to wait six months. Consequently, it may not be able to increase the quantity supplied of its product even if the market price increases sharply.
+
+## Applications 
+
+### Application: Can good news for farming be bad news for farmers?
+
+What happens to wheat farmers and the market for wheat when university agronomists discover a new wheat hybrid that is more productive than existing varieties?
+
+### Application: How does the effect of coordinated cuts to crude oil production affect oil prices?
+
+### Application: How does the debate over drugs legalization depend on the PED for drugs?
+
+### Application: Housing in the Bay Area
+
+::: {#fig-houses_unaffordable}
+
+{{< video https://youtu.be/0Flsg_mzG-M >}}
+
+The video "How the US made affordable homes illegal"
+
+:::
+
+::: {#fig-houses_unaffordable}
+
+{{< video https://youtu.be/AcVaTIW-DGQ >}}
+
+The video "Why Houses Are So Expensive In The U.S."
+
+:::
+

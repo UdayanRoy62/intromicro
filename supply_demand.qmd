@@ -1,0 +1,248 @@
+# The Market Forces of Demand and Supply {#sec-supply_demand}
+
+In @sec-trade, I discussed some of the reasons why people trade with each other. Unfortunately, that chapter had little to say about the price at which one good is traded for another. In this chapter, I will begin to fill that gap.
+
+I will assume an economy in which people trade a great deal. I will assume that there are well developed *markets* in which each traded commodity -- a good or a service or an asset -- is bought and sold.
+
+A good starting point in the description of all the buying and selling that goes on in the market for a traded commodity are two variables: *price* and *quantity*. If I am interested in the market for, say, apples, I would want to know the price of an apple and the quantity of apples bought and sold, say, every month.
+
+I want a *theory* of the price and the quantity. That is, I want a consistent and systematic way to think about observed changes in the price and the quantity.
+
+## Why do we need a theory of prices and quantities? 
+
+Recall from @sec-introduction that in economics we need to be able to *predict* the economic consequences of:
+
+* alternative policies, and
+* events outside our control that we need to be prepared for.
+
+For both individuals and for societies, reliable predictions guide our choices. The reliability of a prediction cannot be established without careful analysis of data (obtained either from historical observation or from experiments). But in many cases we do not have data-based measurements of the reliability of a prediction. In such cases, we can at least check whether a prediction is based on logically consistent reasoning.
+
+A prediction needs to come out of a theory, which is a systematic and rational use of logic. In other words, the mental tool we use to make predictions is a theory.^[A theory is of no use if its predictions are inaccurate. For any theory, we need to measure how accurate the predictions of the theory are. We may be able to do this using the tools of [statistics](https://en.wikipedia.org/wiki/Statistics) and [econometrics](https://en.wikipedia.org/wiki/Econometrics). Those subjects are not discussed in these lectures.]
+
+To further explore the need for a theory of prices, consider yourself casting a vote in an election. You may want to make a rational comparison of the policies espoused by candidates *A*, *B*, and *C*. You will need to imagine the state of your community under policies *A*, *B*, and *C*. To do that you will need to imagine the behavior of the people of your community under policies *A*, *B*, and *C*. To do that you will need to figure out the incentives that the people of your community will face under policies *A*, *B*, and *C*. And, because prices are often (if not always) a crucial incentive (or even *the* crucial incentive), you will need to figure out the prices that the people of your community will face under policies *A*, *B*, and *C*. And to have a logically consistent way to predict the prices that the people of your community will face under policies *A*, *B*, and *C*, you will need *a theory of prices*. 
+
+This is why the theory of prices is so crucial. There is hardly a single social issue where a rational comparison of policy options would not require a theory of how prices would be affected by the policy options being compared.
+
+And that is why this entire course is about prices. Indeed, another name for microeconomics is *price theory*.
+
+## The Punchline
+
+Before we begin this course on prices, let’s give away the punchline: In a market-based economy, *the price of a commodity will be high if* the commodity is:
+
+* Highly desired,
+* Costly to produce, and/or
+* Sold under little or no competition among sellers.
+
+The rest of this course is an extended discussion of the previous sentence. I begin, in this chapter, with a simple yet fundamental theory: the theory of demand and supply.
+
+## The theory of demand and supply
+
+The theory of demand and supply is a simple example of an economic theory. It can be used to make predictions about:
+
+* the price and 
+* the quantity traded, of some traded commodity.
+
+For example, the theory of demand and supply can help you make a prediction about the effect of unusually cold weather on the price and the quantity traded of home heating oil in New York.
+
+Keep in mind that it is crucial to be able to predict prices because prices are the most important economic incentives in a market-based economy.
+
+### Assumptions: Perfect Competition
+
+The theory of supply and demand assumes that each commodity is traded by buyers and sellers dealing directly with each other in the market for that commodity. Coffee is bought and sold in the market for coffee, apples are bought and sold in the market for apples, etc.^[When I refer to the “market for coffee”, I simply mean the buyers and sellers of coffee and the rules they obey when they trade.] Any buyer in a market may buy from any seller and any seller may sell to any buyer.
+
+The theory of supply and demand also assumes that commodities are traded in perfectly competitive markets. A *perfectly competitive market* is one in which:
+
+* there are many buyers,
+* there are many sellers, and
+* all sellers sell the exact same product.
+
+As a result, under perfect competition, the price of a commodity will be the same in every single trade of that commodity. As there are many buyers, no seller has any need to offer a special low price to a particular buyer. Similarly, as there are may sellers, no buyer has any need to pay a special high price to a particular seller. So, all buying and selling must occur at the same price and we refer to that price as *the market price*.^[The market price may, of course, be different in different situations. But all trade in a given situation must take place at the same price, which we call the market price. Under [monopoly](https://en.wikipedia.org/wiki/Monopoly) -- a market with only one seller -- it is possible that the monopolist may charge different buyers different prices, a phenomenon called [price discrimination](https://en.wikipedia.org/wiki/Price_discrimination).]
+
+As there are many buyers and many sellers all selling the same commodity, each buyer and each seller has a negligible impact on the market price: everybody is a *price taker*.
+
+#### Exercise
+
+Are the markets for these commodities perfectly competitive?
+
+* Wheat
+* White cotton T-shirts
+* Automobiles 
+* Cable TV in your locality
+* Electricity for home use in your locality
+
+#### Other kinds of markets
+
+What’s the opposite of perfect competition? Imperfect competition, of course. Specifically, we will discuss:
+
+* Monopoly (one seller)
+* Monopolistic Competition (many sellers, differentiated products)
+* Oligopoly (small number of sellers)
+
+## Demand
+
+How should we describe the behavior of buyers? 
+
+### Quantity demanded
+
+Quantity demanded is the amount of a commodity that buyers are willing and able to purchase.
+
+The quantity demanded of a good/service depends on:
+
+* The price of the good/service
+* The prices of related goods/services
+* Buyers’ incomes
+* Buyers’ tastes
+* Buyers’ expectations about future prices and incomes
+* Number of buyers, 
+* etc.
+
+### Demand
+
+Demand is a full description of how the quantity demanded changes as the price of the commodity changes.
+
+### An Individual’s Demand Schedule and Demand Curve
+
+### Market Demand is the Sum of Individual Demands.
+
+### Law of Demand
+
+The law of demand states that the quantity demanded of a good falls when the price of the good rises, and vice versa, provided all other factors that affect buyers’ decisions are unchanged.
+
+### Why Might Demand Increase?
+
+How can we explain the difference in Catherine’s behavior in situations A and B?
+Why does she consume more in situation B at every possible price?
+
+#### Shifts in the Demand Curve Caused by Changes In Consumer Income
+
+As income increases the demand for a *normal good* will increase.
+
+As income increases the demand for an *inferior good* will decrease.
+
+Example: If restaurant food is a normal good, then Demand shifts right when incomes rise. If fast food is an inferior good, then Demand shifts left when incomes rise.
+
+#### Shifts in the Demand Curve Caused by Changes in Prices of Related Goods
+
+When a *decrease* in the price of one good *decreases* the demand for another good, the two goods are called *substitutes*. 
+
+When a *decrease* in the price of one good *increases* the demand for another good, the two goods are called *complements*.
+
+Example: If Pepsi and Coke are substitutes, then Pepsi’s demand decreases (shifts left) when Coke’s price decreases. If Cars and gasoline are complements, then the demand for cars increases (shifts right) when the price of gas decreases. 
+
+### The Law of Demand: Explanations 
+
+There are two ways to explain the Law of Demand:
+
+* Substitution effect
+* Income effect
+
+#### The Law of Demand: Explanations: Substitution Effect
+
+When the price of a good decreases, consumers substitute that good instead of other competing (substitute) goods.
+
+#### The Law of Demand: Explanations: Income Effect
+
+A decrease in the price of a commodity is essentially equivalent to an increase in consumers’ income. That is, Lower Prices = Higher Income. Consumers respond to a decrease in the price of a commodity as they would to an increase in income. They increase their consumption of a wide range of goods, including the good that had a price decrease.
+
+We have used the substitution effect and the income effect to show that the Law of Demand is true for normal goods.
+
+Can you imagine an example where the Law of Demand is not true?
+
+## Supply
+
+How can we describe the behavior of sellers?
+
+### Quantity supplied
+
+Quantity supplied is the amount of a good that sellers are willing and able to sell.
+
+The quantity supplied of a good/service depends on:
+
+* The price of the good/service
+* The prices of raw materials and labor
+* Technology 
+* Number of sellers, 
+* etc.
+
+### Supply
+
+Supply is a full description of how the quantity supplied of a commodity responds to changes in its price.
+
+#### Individual’s supply schedule and supply curve
+
+#### Market supply and individual supplies
+
+#### Law of Supply
+
+The law of supply states that, the quantity supplied of a good increases when the price of the good increases, and vice versa, provided all other factors that affect suppliers’ decisions are unchanged.
+
+#### Law of Supply: Explanation 
+
+How can we make sense of the numbers in Ben’s supply schedule?
+The best guess is that his costs must be something like the cost schedule below.
+
+### Shifts in the Supply Curve: What causes them?
+
+How could Ben’s supply have increased?
+
+## Equilibrium
+
+Now it is time to say something about how buyers and sellers collectively determine the market outcome. To do this, we assume *equilibrium*.
+ 
+The theory of supply and demand assumes that the market price automatically reaches a level at which the quantity demanded equals the quantity supplied.
+
+### Can we justify the assumption of equilibrium?
+
+If the market price exceeds equilibrium price, then the quantity supplied exceeds the quantity demanded. This is called *excess supply* or a *surplus*. In such a situation, sellers will be forced to cut their prices, thereby moving the market price closer to equilibrium. 
+
+If the market price is less than the equilibrium price, then the quantity supplied is less than the quantity demanded. This is called *excess demand* or a *shortage*. Sellers will increase the market price, because too many buyers are chasing too few goods, thereby moving the market price closer to the equilibrium price.
+
+The market price of a good adjusts to bring the quantity supplied and the quantity demanded for that good into balance.
+
+#### Equilibrium: skepticism required
+
+Although the Law of Supply and Demand is a good place to start the discussion of prices, it should not be taken to be the gospel truth. In some cases the price might get stuck at some other level and quantity supplied and quantity demanded may not be equal.
+
+One example is unemployment. Unemployment is a failure of equilibrium when the wage is too high and stuck there.
+
+## Making predictions
+
+Is the theory of supply and demand of any use? Let’s use the theory to make some predictions. We have seen some of the factors that shift the demand and supply curves. Such shifts change the equilibrium outcome. 
+
+Using the supply-demand theory we can try to predict the consequences of:
+
+* alternative policy proposals, and
+* events outside our control that we need to be ready for.
+
+### How an Increase in Demand Affects the Equilibrium
+
+### How a Decrease in Supply Affects the Equilibrium
+
+#### Eggflation! Supply Decrease in the News 
+
+[What's causing the price of eggs to skyrocket nationwide](https://youtu.be/WAwEXycDhzY), PBS Newshour, YouTube, January 30, 2023
+
+### A Shift in Both Supply and Demand
+
+#### Exercises
+
+Can you predict:
+
+* The effect of the Covid-19 pandemic:
+  * … on the price of gasoline?
+  * … on the price of Manhattan real estate?
+* The effect of a rise in the price of oil on the market for:
+  * Hybrid cars
+  * Real estate
+  * Staple foods (corn, wheat, rice)
+* The effect of the development of cheaper and better batteries for electric cars on the market for:
+  * traditional cars
+  * gas
+
+## The Scope of the theory of supply and Demand
+
+The theory can be applied to other kinds of markets, such as:
+
+* Factor/resource markets
+* Assets markets
+* Prediction markets

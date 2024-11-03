@@ -1,0 +1,265 @@
+# The Gains from Trade {#sec-trade}
+
+People trade with each other—a lot. (Do you know anyone who makes all the things he or she consumes? Probably not.) To understand our world we need to understand why people trade so much. We need to understand whether trade is good for us or bad for us. Understanding this is important precisely because we trade a lot.
+
+## Chapter Outline
+
+-   Why do we trade?
+
+    -   Preferences may vary (from person to person and from community to community)
+
+    -   The skills, technologies, and natural resources that we are endowed with may vary (from person to person and from community to community)
+
+        -   Opportunity costs and trade
+
+        -   Comparative advantage and the gains from trade
+
+        -   Opportunity costs and technology
+
+        -   Graphing production possibilities
+
+    -   There may exist efficiency advantages to doing one thing rather than many things.
+
+## Why Do We Trade?
+
+-   Preferences may vary (from person to person and from community to community)
+
+-   The skills, technologies, and natural resources that we are endowed with may vary (from person to person and from community to community)
+
+-   There may exist efficiency advantages to doing one thing rather than many things.
+
+### Why Do We Trade? Because Preferences May Vary
+
+Imagine a two-country world. Suppose fishing is the only work people do. When people go out to catch fish, equal amounts of salmon and cod always get caught in the nets. Our two countries are identical except for different preferences: people in one country like salmon and people in the other country like cod.
+
+Naturally, this difference in preferences will lead to trade: the salmon lovers will export the cod they catch to the cod lovers, and vice versa.
+
+But, this kind of trade is not very relevant to the world we live in. So, I’ll move on.
+
+### Why Do We Trade? Because we are differently endowed with skills, technologies, and natural resources
+
+#### Imagine a simplified version of our world
+
+Imagine a world with:
+
+-   only two goods: apples and oranges, and
+
+-   only two people: April and Oliver.
+
+What amounts of each good would each person produce? And once the production is done, would April and Oliver trade with each other?
+
+::: {.column-margin}
+Why am I assuming a world with only two goods and only two people? We have seen in @sec-introduction that simplicity often helps us clarify an idea. But in that case why not assume a world with just one good and/or just one person?
+:::
+
+#### Make or Buy?
+
+If you want something, would you make it yourself? Or would you make something else and then trade the thing you made for the thing you want?
+
+To answer this question, you need to take the *cost* to you of making the thing you want and compare it with the *price* of buying it (from another person) instead. 
+
+Let us begin with the cost of making something.
+
+#### Opportunity Cost
+
+In our story, April can produce both apples and oranges. However, as April has a finite amount of the resources needed for production and makes full use of those resources, an increase in her production of apples will cause a decrease in her production of oranges. The decrease in April’s production of oranges that is caused by a one-unit increase in her production of apples is *April's opportunity cost of an apple*.
+
+For example, April's opportunity cost of one apple may be three oranges, as in @tbl-opp_costs_example_1. In this case, April could produce an additional apple if she wishes, but then she would be forced to produce three fewer oranges.
+
+|      | Apples | Oranges |
+|------|------|------|
+|April | 3 oranges    |     |
+|Oliver|     |     |
+
+: Opportunity Costs: Example 1 {#tbl-opp_costs_example_1}
+
+Note that the opportunity cost is *not measured in dollars and cents*. April's opportunity cost of an apple is the decrease in the production of oranges when one more apple is produced (or, conversely, it is the increase in the production of oranges when one less apple is produced). So, the opportunity cost of an apple is measured in oranges.
+
+#### Opportunity Cost: Generalized
+
+We can step away briefly from our apples-oranges example and generalize the concept of opportunity cost. 
+
+::: {.callout-important}
+
+## Opportunity Cost: A General Definition
+
+The opportunity cost of some thing is everything that you’ll have to give up to get that thing.
+
+:::
+
+Can you apply the concept of opportunity cost to your own life? What is the opportunity cost, for you, of taking an additional math course? List all the activities you normally engage in every day. Think about all the sacrifices you will have to make if you were to enroll in an additional math course. That’s your opportunity cost of taking an additional math course this semester.
+
+#### Opportunity Cost and Trade: What if we were all pretty similar?
+
+Suppose the opportunity cost of an apple is 3 oranges for both April and Oliver, as in @tbl-opp_costs_example_2. Will they trade?
+
+|      | Apples | Oranges |
+|------|------|------|
+|April | 3 oranges    |     |
+|Oliver|3 oranges     |     |
+
+: Opportunity Costs: Example 2 {#tbl-opp_costs_example_2}
+
+No. Trade would be pointless in this case.
+
+One can easily imagine April making the following pitch to Oliver: “It costs me 3 oranges to make 1 apple. So, I’ll buy 1 apple from you if you charge a price that is *less* than 3 oranges. Deal?”
+
+This is probably how Oliver will respond: “It costs me 3 oranges to make 1 apple. So, I can sell you 1 apple for a price that is *more* than 3 oranges. So, sorry, no deal!”
+
+This exchange illustrates the idea that trade is pointless when opportunity costs are the same for all producers.
+
+::: {.callout-important}
+
+## No Trade Under Similar Opportunity Costs
+
+If people have similar opportunity costs for some commodity, then they would probably not trade that commodity with each other.
+
+:::
+
+#### Opportunity Cost and Trade: What if we were all pretty different?
+
+Let's change our story a bit. Suppose the opportunity cost of 1 apple is 4 oranges for April and 2 oranges for Oliver, as in @tbl-opp_costs_example_3. 
+
+Now, will they trade?
+
+|      | Apples | Oranges |
+|------|------|------|
+|April | 4 oranges    |     |
+|Oliver|2 oranges     |     |
+
+: Opportunity Costs: Example 3 {#tbl-opp_costs_example_3}
+
+Yes! 
+
+One can easily imagine April making the following pitch to Oliver: “It costs me 4  oranges to make 1 apple. So, I’ll buy 1  apple from you if you charge a price that is less than 4  oranges. Deal?”
+
+That is, April will offer to buy apples from Oliver at a price lower than 4 oranges per apple (because she can make an apple herself at a cost of 4 oranges per apple).
+
+And this is probably how Oliver will respond: “It costs me 2 oranges to make 1 apple. So, I can sell 1 apple to you if you pay a price that is more than 2 oranges. Given what you just said to me, it seems that we can agree to trade at a price somewhere between 2 and 4 oranges per apple. Wonderful! Let's trade.”
+
+Note that Oliver will offer to sell apples to April at a price higher that 2 oranges per apple (because it costs him 2 oranges to make 1 apple).
+
+Therefore, April and Oliver will agree to trade at a price somewhere between 2 and 4 oranges per apple. 
+
+Oliver will sell apples to April and get paid in oranges. Conversely, April will sell oranges to Oliver and get paid in apples. April will hand over some oranges to Oliver and Oliver will hand over some apples in return.
+
+::: {.callout-important}
+
+## Trade Occurs Under Dissimilar Opportunity Costs
+
+If people have different opportunity costs for some commodity, then they will probably trade that commodity with each other.
+
+:::
+
+#### Opportunity Costs Across Commodities
+
+Can you figure out the opportunity cost of an orange for April and for Oliver in @tbl-opp_costs_example_3? That is, can you fill in the blank cells in @tbl-opp_costs_example_3?
+
+Here's the full table of opportunity costs:
+
+|      | Apples | Oranges |
+|------|------|------|
+|April | 4 oranges    | 1/4 apples    |
+|Oliver|2 oranges     | 1/2 apples    |
+
+: Opportunity Costs: Example 4 {#tbl-opp_costs_example_4}
+
+
+
+#### Comparative Advantage and Opportunity Costs
+
+::: {.callout-important}
+
+## Comparative Advantage
+
+The producer with the *lower* opportunity cost in the production of a commodity is said to have a comparative advantage in the production of that commodity.
+
+:::
+
+In our example, *in the production of oranges, April has the comparative advantage*. And, *in the production of apples, Oliver has the comparative advantage*.
+
+#### Trade and Comparative Advantage
+
+Note that in our example, Oliver sells apples to April. So, Oliver will increase his apple production. And, therefore, Oliver will decrease his orange production. 
+
+Note also that Oliver has a comparative advantage -- that is, Oliver has the lower opportunity cost -- in the production of apples.
+
+So, what trade does is to get Oliver to produce more of the product in which he has a comparative advantage and to produce less of the other product.
+
+Conversely, in our example, April sells oranges to Oliver. Consequently, April increases her orange production. And, therefore, April decreases her apple production. 
+
+Note also that April has a comparative advantage -- that is, April has the lower opportunity cost -- in the production of oranges.
+
+So, what trade does is to get April to produce more of the product in which she has a comparative advantage and to produce less of the other product.
+
+In general:
+
+::: {.callout-important}
+
+## Trade Follows Comparative Advantage
+
+Under free trade, each producer increases his/her production of the product in which he/she has a comparative advantage and decreases his/her production of the other product.
+
+:::
+
+For this reason, free trade ensures that each product is produced at the lowest possible cost. For each product, free trade ensures the use of the best technology available.
+
+#### Opportunity Cost and Trade: Key Ideas
+
+Our example suggests the following important ideas that connect opportunity costs and trade.
+
+-   If people have different opportunity costs for some commodity, then they will trade in that commodity.
+
+-   For any commodity, the person whose opportunity cost is lower will be the seller and the person whose opportunity cost is higher will be the buyer.
+
+-   The price at which the trading occurs will be somewhere between the two traders’ opportunity costs.
+
+-   Every producer will increase his production of the commodity for which his opportunity cost is lower … and decreases his production of the commodity for which his opportunity cost is higher.
+
+-   Trade causes people to do more of what they do well and less of what they don’t do well. This is the key reason why we trade so much.
+
+#### Comparative Advantage and Specialization
+
+Trade makes people specialize in the production of the good they have a comparative advantage in. In our example, Oliver has a comparative advantage in producing apples. Trade gives the Oliver the incentive to expand apples production for sale (export) to April. That is, trade gives the Oliver the incentive to specialize in what he does best.
+
+#### The Gains From Trade
+
+In our example, both April and Oliver are made better off by free trade. After all, they would not have agreed to trade otherwise. Voluntary trade between two rational people always makes both of them better off.
+
+Why Is Trade Good for Us? In our example, trade benefits both April and the Oliver by enabling each of them to do only what he or she is better suited to do. Imagine what it would be like if you were required to produce everything that you needed. The situation would be similarly awful for a country that either chose not to trade with other countries or was forced to end all trade with other countries.
+
+#### Theory of Comparative Advantage
+
+The Theory of Comparative Advantage says that if each person specializes in producing what he or she has a comparative advantage in, then total production of every good can increase. As a result, trade can benefit everybody.
+
+In our example, the theory says that if April specializes in oranges and Oliver specializes in apples, the total production of apples can be increased and the total production of oranges can also be increased. As a result, if Oliver and April then trade, they could both benefit. But is this theory true? Theory of Comparative Advantage—Proof Suppose April increases his production of oranges by 4 oranges. Then, according to Table 1, his production of apples must decrease by 1 apple. Suppose Oliver increases his production of apples by 1.5 apples. Then his production of oranges must decrease by 3 oranges. Therefore, by making these two people specialize according to their comparative advantages, it is possible to increase the total output of apples by 0.5 apples and of oranges by 1 orange. 
+
+Wow! We have just witnessed a miracle: the miracle of trade.
+
+For an individual, it is impossible to make more of one good without making less of some other good. But for the world as a whole, it is possible to produce more of all goods simultaneously if we embrace trade. The Legacy of Adam Smith and David Ricardo Adam Smith In his 1776 book An Inquiry into the Nature and Causes of the Wealth of Nations, Adam Smith performed a detailed analysis of trade and economic interdependence, which economists still adhere to today. David Ricardo In his 1816 book Principles of Political Economy and Taxation, David Ricardo developed the principle of comparative advantage as we know it today. Opportunity costs are related to technology Opportunity Costs and Trade We have just seen that opportunity costs are crucial for understanding trade What makes opportunity costs vary from person to person or from country to country? One answer is technology Technology Explains Opportunity Cost Key idea: Different people/countries may have different technologies and this causes them to have different opportunity costs
+
+Let us now see a numerical example of how differences in technology lead to differences in opportunity costs
+
+Production Technologies of April and Oliver Opportunity Costs of April 1  apples → 60 minutes. 1  oranges → 15 minutes. 4  oranges → 60 minutes. Therefore, April’s opportunity cost of 1  apples is 4  oranges. Opportunity Costs of April 1  oranges → 15 minutes. 1  apples → 60 minutes. ¼  apples → 15 minutes. Therefore, April’s opportunity cost of 1  oranges is ¼  apples.
+
+Opportunity Costs of Oliver 1  apples → 20 minutes. 1  oranges → 10 minutes. 2  oranges → 20 minutes. Therefore, Oliver’s opportunity cost of 1  apples is 2  oranges.
+
+Opportunity Costs of Oliver 1  oranges → 10 minutes. 1  apples → 20 minutes. ½  apples → 10 minutes. Therefore, Oliver ’s opportunity cost of 1  oranges is ½  apples.
+
+Reminder: Opportunity Costs and Comparative Advantage April has a comparative advantage in oranges and Oliver has a comparative advantage in apples. Technological differences are an important reason why we trade To sum up, we have so far seen that Trade happens if and only if opportunity costs vary from person to person (or from country to country) Differences in technological abilities can lead to differences in opportunity costs If you are curious: Absolute Advantage and Comparative Advantage If April can make an  oranges in less time than Oliver needs to do the same, then April is said to have an absolute advantage in making oranges On the other hand, as we have seen already, if April can make an  oranges at a lower opportunity cost than Oliver can, then April is said to have a comparative advantage in making oranges If you are curious: Absolute Advantage and Comparative Advantage At one point, economists thought that two people would trade if and only if each had an absolute advantage in the production of some commodity. David Ricardo, a nineteenth-century British economist, later showed that absolute advantage is irrelevant. Two people would trade if and only if each had a comparative advantage in the production of some commodity.
+
+Gains from Trade have Nothing to Do with Technological Superiority If you are curious: Absolute Advantage and Comparative Advantage If you are curious: Absolute Advantage and Comparative Advantage If you are curious: Absolute Advantage and Comparative Advantage Exercise: calculation of opportunity costs from technology We have seen how opportunity costs can be calculated from the 2nd and 3rd columns (blue border) of the technology table below But can you do it using the 4th and 5th columns (brown border) instead?
+
+### Graphing production possibilities
+
+Oliver’s Production Possibilities: Further Details Oliver’s Production Possibilities Frontier Oliver’s Production Possibilities Frontier The Production Possibilities Frontier The PPF graphically illustrates the fact that we face trade-offs If either person increases his production of apples, his production of oranges must decrease. When there is no trade, each person must consume what he produces. In that case, if either person increases his consumption of apples, his consumption of oranges must decrease. April’s Production Possibilities April’s Production Possibilities Frontier The Production Possibilities Frontier Can Shift More apples and More oranges? It may be possible to increase one’s consumption of both apples and oranges—as in the last slide—if… More resources or better resources become available, or Technology becomes more advanced, or April and Oliver begin to trade More apples and More oranges? Trade can increase the overall production—and consumption—of both goods even if resources and technology remain unchanged. This is the miracle of trade. The Production Possibilities Frontier The production possibilities frontier is a graph that shows the combinations of output that the economy can produce, given the available factors (resources) of production and the available production technology. The Production Possibilities Frontier The Production Possibilities Frontier Concepts illustrated by the production possibilities frontier Efficiency Trade-offs Opportunity cost Economic growth A Shift in the Production Possibilities Frontier Q: Why Do We Trade? A:
+
+## Beyond Comparative Advantage: Other Reasons Why Trade Occurs
+
+There are efficiency advantages to doing one thing rather than many things. Differences in Opportunity Costs Can’t be the Only Explanation for Trade. Why is Canada our main trade partner despite being so similar to the US?
+
+Trade allows us to fully utilize the benefits of bulk production by allowing each country’s production to be sold everywhere. Trade intensifies competition and squeezes out inefficient production.
+
+## What next?
+
+We have seen why trade occurs? But when trade does occur, at what price will it occur? In showing how trade can make April and Oliver better off, I worked out an example of how trade could occur. Specifically, I showed that if 1.25  apples are traded for 3.5  oranges, both April and Oliver would be better off. But will trade take place? And if it does, at what price will people trade? That’s the subject of the next chapter.

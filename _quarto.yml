@@ -8,7 +8,8 @@ execute:
 book:
   title: "Introduction to Microeconomics: Lecture Notes"
   author:
-    - Udayan Roy
+    - name: Udayan Roy
+      email: udayan.roy@liu.edu
   repo-url: https://github.com/UdayanRoy62/intromicro
   date: today
   page-footer:
@@ -18,6 +19,11 @@ book:
   chapters:
     - index.qmd
     - introduction.qmd
+    - trade.qmd
+    - supply_demand.qmd
+    - elasticity.qmd
+    - supply_demand_government.qmd
+    - welfare.qmd
     - data.qmd
     - results.qmd
     - d3graph.qmd
@@ -28,7 +34,7 @@ format:
   html:
     theme: cosmo
     code-fold: true
-    number-depth: 3
+    number-depth: 4
     link-external-newwindow: true
   pdf:
     documentclass: book

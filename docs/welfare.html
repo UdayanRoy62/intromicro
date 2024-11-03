@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Introduction to Microeconomics: Lecture Notes - 6&nbsp; Welfare Analysis</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./data.html" rel="next">
+<link href="./supply_demand_government.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./welfare.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Welfare Analysis</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Introduction to Microeconomics: Lecture Notes</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/UdayanRoy62/intromicro" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to Economics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./trade.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Gains from Trade</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./supply_demand.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The Market Forces of Demand and Supply</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./elasticity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Elasticity</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./supply_demand_government.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Supply, Demand, and Government Policies</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./welfare.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Welfare Analysis</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Data</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./results.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Results</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./d3graph.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Interactive graph</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Conclusion</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#measuring-the-benefits-from-consumption" id="toc-measuring-the-benefits-from-consumption" class="nav-link active" data-scroll-target="#measuring-the-benefits-from-consumption"><span class="header-section-number">6.1</span> Measuring the benefits from consumption</a>
+  <ul class="collapse">
+  <li><a href="#where-does-demand-come-from-an-example." id="toc-where-does-demand-come-from-an-example." class="nav-link" data-scroll-target="#where-does-demand-come-from-an-example."><span class="header-section-number">6.1.1</span> Where does demand come from? An Example.</a></li>
+  <li><a href="#a-super-quick-detour-into-philosophy" id="toc-a-super-quick-detour-into-philosophy" class="nav-link" data-scroll-target="#a-super-quick-detour-into-philosophy"><span class="header-section-number">6.1.2</span> A super quick detour into philosophy</a></li>
+  </ul></li>
+  <li><a href="#measuring-the-costs-of-production" id="toc-measuring-the-costs-of-production" class="nav-link" data-scroll-target="#measuring-the-costs-of-production"><span class="header-section-number">6.2</span> Measuring the costs of production</a></li>
+  <li><a href="#measuring-the-net-gain-from-economic-activity-benefits---costs" id="toc-measuring-the-net-gain-from-economic-activity-benefits---costs" class="nav-link" data-scroll-target="#measuring-the-net-gain-from-economic-activity-benefits---costs"><span class="header-section-number">6.3</span> Measuring the net gain from economic activity: Benefits - Costs</a>
+  <ul class="collapse">
+  <li><a href="#equilibrium" id="toc-equilibrium" class="nav-link" data-scroll-target="#equilibrium"><span class="header-section-number">6.3.1</span> Equilibrium</a></li>
+  <li><a href="#optimum" id="toc-optimum" class="nav-link" data-scroll-target="#optimum"><span class="header-section-number">6.3.2</span> Optimum</a></li>
+  <li><a href="#equilibrium-is-optimum" id="toc-equilibrium-is-optimum" class="nav-link" data-scroll-target="#equilibrium-is-optimum"><span class="header-section-number">6.3.3</span> Equilibrium is Optimum</a></li>
+  <li><a href="#market-efficiency-adam-smith-and-the-invisible-hand" id="toc-market-efficiency-adam-smith-and-the-invisible-hand" class="nav-link" data-scroll-target="#market-efficiency-adam-smith-and-the-invisible-hand"><span class="header-section-number">6.3.4</span> Market Efficiency: Adam Smith and the Invisible Hand</a></li>
+  <li><a href="#market-efficiency-and-social-ethics" id="toc-market-efficiency-and-social-ethics" class="nav-link" data-scroll-target="#market-efficiency-and-social-ethics"><span class="header-section-number">6.3.5</span> Market Efficiency and Social Ethics</a></li>
+  <li><a href="#market-failure" id="toc-market-failure" class="nav-link" data-scroll-target="#market-failure"><span class="header-section-number">6.3.6</span> Market Failure</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/UdayanRoy62/intromicro/edit/main/welfare.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UdayanRoy62/intromicro/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-welfare" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Welfare Analysis</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="measuring-the-benefits-from-consumption" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="measuring-the-benefits-from-consumption"><span class="header-section-number">6.1</span> Measuring the benefits from consumption</h2>
+<p>We need to measure the <em>benefit</em> that people get from the consumption of various goods and services. A simple approach is to ask people about their <em>willingness to pay</em> for those goods and services.</p>
+<p>Consider the following example: There’s a town with only five donut consumers: Alex, Barbara, Chris, David and Elena. Nobody consumes more than four donuts per day. Each person’s willingness to pay for the first donut of the day, the second donut, etc., are shown in <a href="#tbl-donuts_benefits" class="quarto-xref">Table&nbsp;<span>6.1</span></a>, in dollars.</p>
+<div class="cell">
+<div id="tbl-donuts_benefits" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-donuts_benefits-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.1: Willingness to pay for each donut: Numerical Example
+</figcaption>
+<div aria-describedby="tbl-donuts_benefits-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div>
+<div id="ybxrpompjq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ybxrpompjq table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#ybxrpompjq thead, #ybxrpompjq tbody, #ybxrpompjq tfoot, #ybxrpompjq tr, #ybxrpompjq td, #ybxrpompjq th {
+  border-style: none;
+}
+
+#ybxrpompjq p {
+  margin: 0;
+  padding: 0;
+}
+
+#ybxrpompjq .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#ybxrpompjq .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#ybxrpompjq .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#ybxrpompjq .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#ybxrpompjq .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#ybxrpompjq .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#ybxrpompjq .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#ybxrpompjq .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#ybxrpompjq .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#ybxrpompjq .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#ybxrpompjq .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#ybxrpompjq .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#ybxrpompjq .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#ybxrpompjq .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#ybxrpompjq .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ybxrpompjq .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#ybxrpompjq .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#ybxrpompjq .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#ybxrpompjq .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ybxrpompjq .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#ybxrpompjq .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ybxrpompjq .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#ybxrpompjq .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ybxrpompjq .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#ybxrpompjq .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#ybxrpompjq .gt_left {
+  text-align: left;
+}
+
+#ybxrpompjq .gt_center {
+  text-align: center;
+}
+
+#ybxrpompjq .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#ybxrpompjq .gt_font_normal {
+  font-weight: normal;
+}
+
+#ybxrpompjq .gt_font_bold {
+  font-weight: bold;
+}
+
+#ybxrpompjq .gt_font_italic {
+  font-style: italic;
+}
+
+#ybxrpompjq .gt_super {
+  font-size: 65%;
+}
+
+#ybxrpompjq .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#ybxrpompjq .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#ybxrpompjq .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#ybxrpompjq .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#ybxrpompjq .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#ybxrpompjq .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#ybxrpompjq .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table do-not-create-environment cell table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_col_headings gt_spanner_row">
+<th rowspan="2" id="Donut" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Donut</th>
+<th colspan="5" id="Willingness to Pay" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">Willingness to Pay</span></th>
+</tr>
+<tr class="odd gt_col_headings">
+<th id="Alex" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Alex</th>
+<th id="Barbara" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Barbara</th>
+<th id="Chris" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Chris</th>
+<th id="David" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">David</th>
+<th id="Elena" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Elena</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="Donut">1st</td>
+<td class="gt_row gt_right" headers="Alex">8</td>
+<td class="gt_row gt_right" headers="Barbara">10</td>
+<td class="gt_row gt_right" headers="Chris">6</td>
+<td class="gt_row gt_right" headers="David">9</td>
+<td class="gt_row gt_right" headers="Elena">4</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Donut">2nd</td>
+<td class="gt_row gt_right" headers="Alex">5</td>
+<td class="gt_row gt_right" headers="Barbara">9</td>
+<td class="gt_row gt_right" headers="Chris">5</td>
+<td class="gt_row gt_right" headers="David">7</td>
+<td class="gt_row gt_right" headers="Elena">2</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Donut">3rd</td>
+<td class="gt_row gt_right" headers="Alex">3</td>
+<td class="gt_row gt_right" headers="Barbara">7</td>
+<td class="gt_row gt_right" headers="Chris">4</td>
+<td class="gt_row gt_right" headers="David">4</td>
+<td class="gt_row gt_right" headers="Elena">0</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Donut">4th</td>
+<td class="gt_row gt_right" headers="Alex">0</td>
+<td class="gt_row gt_right" headers="Barbara">4</td>
+<td class="gt_row gt_right" headers="Chris">2</td>
+<td class="gt_row gt_right" headers="David">1</td>
+<td class="gt_row gt_right" headers="Elena">-2</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>I am assuming that people enjoy an additional donut less the more donuts they have already consumed.</p>
+<section id="where-does-demand-come-from-an-example." class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="where-does-demand-come-from-an-example."><span class="header-section-number">6.1.1</span> Where does demand come from? An Example.</h3>
+<p>The willingness to pay data in <a href="#tbl-donuts_benefits" class="quarto-xref">Table&nbsp;<span>6.1</span></a> leads us directly to the <em>individual demand schedules</em> for Alex, Barbara, Chris, David and Elena, and also the <em>aggregate demand schedule</em> (also called the <em>market demand schedule</em> and the <em>total demand schedule</em>).</p>
+<p>Please use the sliding controls on <a href="#tbl-demand" class="quarto-xref">Table&nbsp;<span>6.2</span></a> to see it in its entirety.</p>
+<div class="cell">
+<div id="tbl-demand" class="cell quarto-float anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-demand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.2: Individual and Aggregate Demand Schedules
+</figcaption>
+<div aria-describedby="tbl-demand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div>
+<div id="umtiggqowl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#umtiggqowl table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#umtiggqowl thead, #umtiggqowl tbody, #umtiggqowl tfoot, #umtiggqowl tr, #umtiggqowl td, #umtiggqowl th {
+  border-style: none;
+}
+
+#umtiggqowl p {
+  margin: 0;
+  padding: 0;
+}
+
+#umtiggqowl .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#umtiggqowl .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#umtiggqowl .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#umtiggqowl .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#umtiggqowl .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#umtiggqowl .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#umtiggqowl .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#umtiggqowl .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#umtiggqowl .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#umtiggqowl .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#umtiggqowl .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#umtiggqowl .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#umtiggqowl .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#umtiggqowl .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#umtiggqowl .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#umtiggqowl .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#umtiggqowl .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#umtiggqowl .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#umtiggqowl .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#umtiggqowl .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#umtiggqowl .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#umtiggqowl .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#umtiggqowl .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#umtiggqowl .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#umtiggqowl .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#umtiggqowl .gt_left {
+  text-align: left;
+}
+
+#umtiggqowl .gt_center {
+  text-align: center;
+}
+
+#umtiggqowl .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#umtiggqowl .gt_font_normal {
+  font-weight: normal;
+}
+
+#umtiggqowl .gt_font_bold {
+  font-weight: bold;
+}
+
+#umtiggqowl .gt_font_italic {
+  font-style: italic;
+}
+
+#umtiggqowl .gt_super {
+  font-size: 65%;
+}
+
+#umtiggqowl .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#umtiggqowl .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#umtiggqowl .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#umtiggqowl .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#umtiggqowl .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#umtiggqowl .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#umtiggqowl .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table do-not-create-environment cell table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_col_headings gt_spanner_row">
+<th rowspan="2" id="Price" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Price</th>
+<th colspan="6" id="Quantity Demanded (Donuts)" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">Quantity Demanded (Donuts)</span></th>
+</tr>
+<tr class="odd gt_col_headings">
+<th id="Alex" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Alex</th>
+<th id="Barbara" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Barbara</th>
+<th id="Chris" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Chris</th>
+<th id="David" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">David</th>
+<th id="Elena" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Elena</th>
+<th id="Aggregate" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Aggregate</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_right" headers="Price">10</td>
+<td class="gt_row gt_right" headers="Alex">0</td>
+<td class="gt_row gt_right" headers="Barbara">1</td>
+<td class="gt_row gt_right" headers="Chris">0</td>
+<td class="gt_row gt_right" headers="David">0</td>
+<td class="gt_row gt_right" headers="Elena">0</td>
+<td class="gt_row gt_right" headers="Aggregate">1</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="Price">9</td>
+<td class="gt_row gt_right" headers="Alex">0</td>
+<td class="gt_row gt_right" headers="Barbara">2</td>
+<td class="gt_row gt_right" headers="Chris">0</td>
+<td class="gt_row gt_right" headers="David">1</td>
+<td class="gt_row gt_right" headers="Elena">0</td>
+<td class="gt_row gt_right" headers="Aggregate">3</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="Price">8</td>
+<td class="gt_row gt_right" headers="Alex">1</td>
+<td class="gt_row gt_right" headers="Barbara">2</td>
+<td class="gt_row gt_right" headers="Chris">0</td>
+<td class="gt_row gt_right" headers="David">1</td>
+<td class="gt_row gt_right" headers="Elena">0</td>
+<td class="gt_row gt_right" headers="Aggregate">4</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="Price">7</td>
+<td class="gt_row gt_right" headers="Alex">1</td>
+<td class="gt_row gt_right" headers="Barbara">3</td>
+<td class="gt_row gt_right" headers="Chris">0</td>
+<td class="gt_row gt_right" headers="David">2</td>
+<td class="gt_row gt_right" headers="Elena">0</td>
+<td class="gt_row gt_right" headers="Aggregate">6</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="Price">6</td>
+<td class="gt_row gt_right" headers="Alex">1</td>
+<td class="gt_row gt_right" headers="Barbara">3</td>
+<td class="gt_row gt_right" headers="Chris">1</td>
+<td class="gt_row gt_right" headers="David">2</td>
+<td class="gt_row gt_right" headers="Elena">0</td>
+<td class="gt_row gt_right" headers="Aggregate">7</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="Price">5</td>
+<td class="gt_row gt_right" headers="Alex">2</td>
+<td class="gt_row gt_right" headers="Barbara">3</td>
+<td class="gt_row gt_right" headers="Chris">2</td>
+<td class="gt_row gt_right" headers="David">2</td>
+<td class="gt_row gt_right" headers="Elena">0</td>
+<td class="gt_row gt_right" headers="Aggregate">9</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="Price">4</td>
+<td class="gt_row gt_right" headers="Alex">2</td>
+<td class="gt_row gt_right" headers="Barbara">4</td>
+<td class="gt_row gt_right" headers="Chris">3</td>
+<td class="gt_row gt_right" headers="David">3</td>
+<td class="gt_row gt_right" headers="Elena">1</td>
+<td class="gt_row gt_right" headers="Aggregate">13</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="Price">3</td>
+<td class="gt_row gt_right" headers="Alex">3</td>
+<td class="gt_row gt_right" headers="Barbara">4</td>
+<td class="gt_row gt_right" headers="Chris">3</td>
+<td class="gt_row gt_right" headers="David">3</td>
+<td class="gt_row gt_right" headers="Elena">1</td>
+<td class="gt_row gt_right" headers="Aggregate">14</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="Price">2</td>
+<td class="gt_row gt_right" headers="Alex">3</td>
+<td class="gt_row gt_right" headers="Barbara">4</td>
+<td class="gt_row gt_right" headers="Chris">4</td>
+<td class="gt_row gt_right" headers="David">3</td>
+<td class="gt_row gt_right" headers="Elena">2</td>
+<td class="gt_row gt_right" headers="Aggregate">16</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_right" headers="Price">1</td>
+<td class="gt_row gt_right" headers="Alex">3</td>
+<td class="gt_row gt_right" headers="Barbara">4</td>
+<td class="gt_row gt_right" headers="Chris">4</td>
+<td class="gt_row gt_right" headers="David">4</td>
+<td class="gt_row gt_right" headers="Elena">2</td>
+<td class="gt_row gt_right" headers="Aggregate">17</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_right" headers="Price">0</td>
+<td class="gt_row gt_right" headers="Alex">4</td>
+<td class="gt_row gt_right" headers="Barbara">4</td>
+<td class="gt_row gt_right" headers="Chris">4</td>
+<td class="gt_row gt_right" headers="David">4</td>
+<td class="gt_row gt_right" headers="Elena">3</td>
+<td class="gt_row gt_right" headers="Aggregate">19</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p>And each demand schedule can be graphed to give its corresponding <em>demand curve</em>.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-demand_Alex" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-demand_Alex-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="welfare_files/figure-html/fig-demand_Alex-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-demand_Alex-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.1: Demand Curve: Alex
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Where does demand come from? Another Way.</p>
+<p>A Graphical Measure of Consumers’ Happiness.</p>
+<p>A super quick detour into philosophy In our example, when the prevailing market price of a donut is $3.00, 14 donuts are consumed by Alex (3), Barbara (4), Chris (3), David (3), and Elena (1). And their total willingness to pay is $84. Under our assumptions, willingness to pay measures happiness, in the case of an individual. For example, Barbara is willing to pay $10 for her first donut of the day and under our assumptions that is a good measure of the happiness she gets But is the total willingness to pay of Alex, Barbara, Chris, David, and Elena a good measure of their collective happiness?</p>
+</section>
+<section id="a-super-quick-detour-into-philosophy" class="level3" data-number="6.1.2">
+<h3 data-number="6.1.2" class="anchored" data-anchor-id="a-super-quick-detour-into-philosophy"><span class="header-section-number">6.1.2</span> A super quick detour into philosophy</h3>
+<p>We understand what the happiness of an individual means but it is unclear what the happiness of a group of individuals means. In our discussion, we rely on a philosophical doctrine called utilitarianism. Utilitarianism is the idea that: An individual’s happiness can be measured and expressed in numbers Happiness numbers are comparable (interpersonal comparability) The happiness of a group of people is a meaningful thing and … … can be numerically measured by simply adding the happiness numbers of the individual members of the group What The Demand Curve Says About Happiness Consumer Surplus</p>
+</section>
+</section>
+<section id="measuring-the-costs-of-production" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="measuring-the-costs-of-production"><span class="header-section-number">6.2</span> Measuring the costs of production</h2>
+<p>Rational sellers maximize profit Key Assumption: A profit-maximizing producer will produce those units of output—and only those units of output—that cost no more to produce than the prevailing market price for one unit of the commodity. This simple idea establishes a link between the costs of production and supply. Where does supply come from? Assume a town with four donut sellers: Frank, Ginny, Heather, and Irma. None of them makes more than five donuts in a day Each seller’s cost of production for each donut is shown in dollars I assume that the production cost of an additional donut increases as the amount produced increases Where does supply come from? First Look Where does supply come from? Second Look The supply curve can be a graphical measure of production costs Supply Curve and Production Cost Producer Surplus</p>
+<p>Recap: The gains from consumption and the costs of production What The Demand Curve Says About the Benefits Enjoyed by the Buyers Consumer Surplus What the Supply Curve Says About the Costs Endured by the Sellers Producer Surplus Market Efficiency Recap: Where does demand come from? Recap: Where does supply come from?</p>
+</section>
+<section id="measuring-the-net-gain-from-economic-activity-benefits---costs" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="measuring-the-net-gain-from-economic-activity-benefits---costs"><span class="header-section-number">6.3</span> Measuring the net gain from economic activity: Benefits - Costs</h2>
+<section id="equilibrium" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="equilibrium"><span class="header-section-number">6.3.1</span> Equilibrium</h3>
+<p>We have shown that the price will be $4, and the quantity bought will be 13 Alex buys 2 donuts; Barbara 4; Chris 3; David 3; and Elena 1 These are the people who like donuts the most Their total happiness = 10 + 9 + 9 + 8 + 7 + 7 + 6 + 5 + 5 + 4 + 4 + 4 + 4 = $82 There is no way to distribute 13 donuts among the five people in a way that generates more happiness/willingness-to-pay than $82 Equilibrium: Sellers’ Production Costs We have shown that the price will be $4, and the quantity sold will be 13 Frank sells 5 donuts; Ginny 5; Heather 1; and Irma 2 These are the least-cost producers The total cost = 1 + 1 + 1 + 2 + 2 + 3 + 3 + 3 + 4 + 4 + 4 + 4 + 4 = $36 There is no way to get 13 donuts produced so that the production cost would be less than $36</p>
+</section>
+<section id="optimum" class="level3" data-number="6.3.2">
+<h3 data-number="6.3.2" class="anchored" data-anchor-id="optimum"><span class="header-section-number">6.3.2</span> Optimum</h3>
+</section>
+<section id="equilibrium-is-optimum" class="level3" data-number="6.3.3">
+<h3 data-number="6.3.3" class="anchored" data-anchor-id="equilibrium-is-optimum"><span class="header-section-number">6.3.3</span> Equilibrium is Optimum</h3>
+<p>The equilibrium outcome generates $82 of benefits and $36 of costs, for a total surplus of $46 There is no other outcome that has a higher total surplus</p>
+<p>Next, I will demonstrate this result again, in a different way What’s the Optimum Outcome? Suppose you were a well-intentioned dictator How many donuts would you want made? Which producers would you pick to make the donuts? Which consumers would you pick to consume the donuts? What’s the Optimum Outcome? You are Vladimir, a well-intentioned dictator You want the production to be done as cheaply as possible You want to consumption to generate as much happiness as possible Donut #1: You’ll tell Ginny to make it (cost = $1); You’ll tell Barbara to eat it (benefit = $10); Surplus = $9 What’s the Optimum Outcome? Donut #2: You tell Ginny to make it (cost = $1); You tell Barbara to eat it (benefit = $9); Surplus = $8 Donut #3: You tell Irma to make it (cost = $1); You tell David to eat it (benefit = $9); Surplus = $8 … and so it goes on, till you reach … Donut #13: You tell Frank to make it (cost = $4); You tell Elena to eat it (benefit = $4); Surplus = $0</p>
+<p>What’s the Optimum Outcome? Had you ordered the production and consumption of the 14th donut, the cost would have been no less than $5 and the benefit would have been no more than $3 So, the surplus from the 14th donut would have been -$1 Negative! So, you’ll stop at the 13th donut</p>
+<p>What’s the Optimum Outcome? Therefore, the optimum outcome would be to order the production and consumption of 13 donuts The producers would be Frank 5 donuts; Ginny 5; Heather 1; and Irma 2 The consumers would be Alex 2 donuts; Barbara 4; Chris 3; David 3; and Elena 1 This is the same as the equilibrium outcome!</p>
+<p>The Theory of Demand and Supply The theory of demand and supply is super simple It assumes perfect competition, the absence of externalities, and that buyers and sellers are perfectly informed and rational So, it is not surprising that the equilibrium outcome is unimprovable The real world has plenty of inefficiencies Nevertheless, the theory of supply and demand and the welfare analysis of the market outcome is considered by most economists to be a useful starting point in any policy analysis Total Surplus Key Definition: Total Surplus is a monetary measure of the net gain to society from the production and consumption of a good or service. So, Total Surplus = Consumers’ Total Benefit – Producers’ Total Cost</p>
+<p>Total Surplus = Benefit – Cost Total Surplus = Benefit – Cost MARKET EFFICIENCY How do we judge whether an economy is functioning efficiently? We need to measure the total benefit from consumption. Then we need to subtract the total cost of production. Therefore, a good measure of an economy’s efficiency is its total surplus. Key Definition: An economic outcome is efficient if there is no feasible way to make the total surplus any higher. Total Surplus = Benefit – Cost MARKET EFFICIENCY How do we judge whether an economy is functioning efficiently? One measure of efficiency is the total well-being of all participants in the economy. These are either buyers or sellers, and their total well-being consists of consumer surplus and producer surplus. Therefore, a good measure of an economy’s efficiency is its total surplus. Key Definition: An economic outcome is efficient if there is no feasible way to make the total surplus any higher. MARKET EFFICIENCY Consumer surplus and producer surplus may be used to address the following questions: Is the free market system a good way of running our economy? Could we design a better system? Consumer and Producer Surplus Consumer Surplus = buyers’ total benefit – Amount paid by buyers</p>
+<p>and</p>
+<p>Producer Surplus = Amount received by sellers – sellers’ total cost Total Surplus Key Definition: Total Surplus is a monetary measure of the net gain to society from the production and consumption of a good or service. So, Total Surplus = Consumers’ Total Benefit – Producers’ Total Cost</p>
+<p>In a market-based economy without taxes and subsidies, Total Surplus = Consumer Surplus + Producer Surplus Total Surplus Total Surplus (in a market-based economy without taxes/subsidies) = Consumer surplus + Producer surplus = buyers’ total benefit – Amount paid by buyers + Amount received by sellers – sellers’ total cost Total Surplus Total Surplus (in a market-based economy without taxes/subsidies) = Consumer surplus + Producer surplus = buyers’ total benefit – Amount paid by buyers + Amount received by sellers – sellers’ total cost = buyers’ total benefit – sellers’ total cost = Total Surplus Consumer and Producer Surplus in the Market Equilibrium Consumer and Producer Surplus in the Market Equilibrium The Best Feasible Outcome What if we produced less than the equilibrium amount? What if we produced more than the equilibrium amount? What if we produced more than the equilibrium amount? Market Efficiency We just saw that there is no feasible way to generate a higher total surplus than the total surplus obtained in the equilibrium outcome under perfect competition. That is, the equilibrium outcome under perfect competition is efficient.</p>
+<p>MARKET EFFICIENCY Three Insights Concerning Market Outcomes Free markets allocate the goods produced to the buyers who value them most highly, as measured by their willingness to pay. Free markets allocate production of goods to those who can produce them at least cost. Free markets produce the quantity of goods that maximizes total surplus. In other words, no economic system will generate more total surplus than the perfectly competitive market system’s equilibrium outcome. The Invisible Hand We pursue our self-interest, not the social interest. It is, therefore, natural to think that the free market would lead us to chaos. And yet, as we just saw, the free market outcome is unimprovable.</p>
+</section>
+<section id="market-efficiency-adam-smith-and-the-invisible-hand" class="level3" data-number="6.3.4">
+<h3 data-number="6.3.4" class="anchored" data-anchor-id="market-efficiency-adam-smith-and-the-invisible-hand"><span class="header-section-number">6.3.4</span> Market Efficiency: Adam Smith and the Invisible Hand</h3>
+<p>This idea was most famously proposed by Adam Smith (1723 – 1790), the father of modern economics. The Invisible Hand …[E]very individual … neither intends to promote the public interest, nor knows how much he is promoting it. … [H]e intends only his own security; and by directing that industry in such a manner as its produce may be of the greatest value, he intends only his own gain, and he is in this, as in many other cases, led by an invisible hand to promote an end which was no part of his intention. Nor is it always the worse for the society that it was no part of it. By pursuing his own interest he frequently promotes that of the society more effectually than when he really intends to promote it. I have never known much good done by those who affected to trade for the public good. The Wealth of Nations, Adam Smith, 1776</p>
+</section>
+<section id="market-efficiency-and-social-ethics" class="level3" data-number="6.3.5">
+<h3 data-number="6.3.5" class="anchored" data-anchor-id="market-efficiency-and-social-ethics"><span class="header-section-number">6.3.5</span> Market Efficiency and Social Ethics</h3>
+<p>Ticket Scalping Ticket scalping is often frowned upon and sometimes considered illegal See http://en.wikipedia.org/wiki/Ticket_resale But a typical view among economists is that “consenting adults should be able to make economic trades when they think it is to their mutual advantage” Scalping increases the economy’s efficiency</p>
+<p>Market for organs Should people be allowed to sell, say, their kidneys? The efficiency of the economy will increase. What about fairness? Rich will buy others’ kidneys; the poor will sell theirs. Right now healthy people have extra kidneys while the sick have none. The sale of organs may be more acceptable if organ purchases by the poor were paid for with taxpayers’ money. That way the rich and the poor would have equal access.</p>
+</section>
+<section id="market-failure" class="level3" data-number="6.3.6">
+<h3 data-number="6.3.6" class="anchored" data-anchor-id="market-failure"><span class="header-section-number">6.3.6</span> Market Failure</h3>
+<p>But markets do fail However, markets can go wrong Market Power Externalities Fairness Market Failure: MONOPOLY Our discussion was limited to perfect competition If a market system is not perfectly competitive, firms may have market power. Market power is the ability of a seller to influence prices. The existence of market power can cause markets to be inefficient. Market Failure: EXTERNALITIES Externalities are created when trade between a buyer and a seller affects individuals other than the buyer and the seller. cause total surplus in a market to depend on more than just the benefit to the buyers and cost to the sellers. When buyers and sellers do not take externalities into account when deciding how much to consume and produce, the equilibrium in the market can be inefficient. Market Failure: FAIRNESS In addition to market efficiency, a society might also care about equity – the fairness of the distribution of well-being among the various buyers and sellers. The free market economic system is efficient but not necessarily fair. Health Care: Example of Market Failure In most advanced countries, government policies regarding health care routinely disregard the idea that free markets are best In the United Kingdom, the government builds hospitals, hires doctors and nurses, buys pharmaceutical drugs, and provides medical care to all residents Patients get no bills; tax revenues are used to pay all costs Fees of private doctors are paid by the government Performance indicators are high Costs are low There is virtually no clamor for privatization Video: Scroogenomics Heard the one about the economist who gave cash as a Valentine’s Day gift? Scrooge alert: Your holiday spending may result in an economic loss by Paul Solman, PBS Newshour, December 23, 2013.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./supply_demand_government.html" class="pagination-link" aria-label="Supply, Demand, and Government Policies">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Supply, Demand, and Government Policies</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./data.html" class="pagination-link" aria-label="Data">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Data</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/UdayanRoy62/intromicro/edit/main/welfare.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UdayanRoy62/intromicro/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This book was built with <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

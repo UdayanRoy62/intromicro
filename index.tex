@@ -1,0 +1,1853 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  letterpaper,
+]{book}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{makeidx}
+\makeindex
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Introduction to Microeconomics: Lecture Notes},
+  pdfauthor={Udayan Roy},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Introduction to Microeconomics: Lecture Notes}
+\author{Udayan Roy}
+\date{2024-06-09}
+
+\begin{document}
+\frontmatter
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\mainmatter
+\bookmarksetup{startatroot}
+
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+\markboth{Preface}{Preface}
+
+These are my lecture notes for a course called \emph{Introduction to
+Microeconomics} that I have taught for over three decades.
+
+The required textbook for my course is \emph{Principles of
+Microeconomics} by
+\href{https://simple.wikipedia.org/wiki/N._Gregory_Mankiw}{N. Gregory
+Mankiw}. Although Mankiw's book is excellent, I have constantly felt the
+need to make small adjustments. Until recently, I had been making these
+adjustments in the PowerPoint slides I use in the classroom. But the
+availability of new technology -- especially
+\href{https://www.r-project.org/}{\emph{R}},
+\href{https://posit.co/download/rstudio-desktop/}{\emph{R Studio}},
+\href{https://quarto.org/docs/books/}{\emph{quarto books}}, and
+\href{https://github.com/}{\emph{Github}} -- has made it easy for me to
+gather my slides and give them an online form that actually resembles a
+textbook.
+
+I would be happy to get feedback.
+
+\bookmarksetup{startatroot}
+
+\chapter{Introduction to Economics}\label{sec-introduction}
+
+\section{Chapter Outline}\label{chapter-outline}
+
+\begin{itemize}
+\item
+  What is economics?
+\item
+  What is the use of economics?
+\item
+  What are economists expected to do?
+\item
+  How do economists do what they are expected to do?
+\item
+  Why does the economist's method sometimes fail?
+\item
+  What is macroeconomics?
+\item
+  What is microeconomics?
+\end{itemize}
+
+\section{What is Economics?}\label{what-is-economics}
+
+Economics is the study of our responses to scarcity, and the
+consequences of those responses.
+
+Scarcity -- in economics -- is the fact that we can't always get what we
+want.
+
+None of us has Aladdin's magic lamp.
+
+\section{What is the Use of
+Economics?}\label{what-is-the-use-of-economics}
+
+Scarcity compels us to come up with less wasteful ways of running our
+societies.
+
+We all want progress, and we all want to reduce hunger, poverty and
+inequality. But our resources are finite. Therefore, we can't afford to
+run our societies in wasteful and inefficient ways. That's where good
+economic policies have a crucial role to play. That's where the
+economist can contribute.
+
+The goals of a nation should not be set by economists. In democracies,
+it is usually the job of the elected representatives of the people to
+determine the nation's goals. Once the goals have been determined, it is
+the job of the economist to outline the various policies by which the
+nation's goals may be reached (assuming the goals are reachable).
+
+The economist must also predict the likely benefits and costs of each of
+the various policies by which the nation's goals may be achieved.
+
+The people's representatives can then pick the policy they like best.
+
+\subsection{Wasted Resources: Stuck in
+Traffic}\label{wasted-resources-stuck-in-traffic}
+
+We waste a lot of time stuck in traffic. Economists would want to find a
+way to reduce this waste of time. Building more roads may not always be
+possible, may not solve the problem, and may be costly in any case.
+Charging car owners for the use of a road may be the way to go.
+Investing in or subsidizing public transport is another option.
+
+\subsubsection{Wasted Resources: Stuck in Traffic: News
+Item}\label{wasted-resources-stuck-in-traffic-news-item}
+
+\href{https://www.wsj.com/articles/charging-drivers-for-road-use-is-popular-with-economists-less-so-with-drivers-11630245780}{Charging
+Drivers for Road Use Is Popular With Economists, Less So With Drivers}
+By David Harrison, The Wall Street Journal, Aug.~29, 2021
+
+\subsection{Wasted Resources:
+Unemployment}\label{wasted-resources-unemployment}
+
+What can we do to reduce this waste of resources? Cut taxes to encourage
+people to go shopping? Have the government spend more roads and bridges?
+Make overtime work illegal? Limit imports?
+
+\subsection{Wasted Resources: Environment
+Destruction}\label{wasted-resources-environment-destruction}
+
+How can we ensure that the resources that sustain life on this planet
+are conserved?
+
+\subsection{Addressing Ethical Imperatives: Health
+Care}\label{addressing-ethical-imperatives-health-care}
+
+How can we ensure that people do not need to worry about something as
+basic as healthcare?
+
+\subsection{Addressing Ethical Imperatives:
+Inequality}\label{addressing-ethical-imperatives-inequality}
+
+How can we ensure that incomes are more equally shared?
+
+This assumes that a more equal nation is what the people want. (Remember
+that it is not the economist's job to say what the nation should or
+should not want.) Raise taxes on the rich? Invest in and subsidize
+higher education? Change existing laws to strengthen labor unions?
+
+\subsection{Addressing Ethical Imperatives: Intergenerational
+Mobility}\label{addressing-ethical-imperatives-intergenerational-mobility}
+
+How can we keep the American Dream---the idea that each generation lives
+better than their parents---alive? Universal Basic Income? Baby Bonds?
+Require politicians to raise election campaign money through small
+donations? Tuition-free college?
+
+\section{What Are Economists Expected to
+Do?}\label{what-are-economists-expected-to-do}
+
+As we have just seen, when asked specific policy-related questions, the
+economist has to think hard and:
+
+\begin{itemize}
+\item
+  Identify the list of the options available to society, and
+\item
+  Make predictions of the consequences---costs and benefits---that would
+  follow from each of those options.
+\end{itemize}
+
+The democratic process must then decide which option to pursue.
+
+\subsection{Government policies can make a difference: in ways good and
+bad:
+Examples}\label{government-policies-can-make-a-difference-in-ways-good-and-bad-examples}
+
+Government's Pandemic Response Turned a Would-Be Poverty Surge Into a
+Record Poverty Decline, By Danilo Trisi, Center for Budget and Policy
+Priorities, August 29, 2023
+
+\subsubsection{When Economic Policies Go Wrong: Joseph
+Stalin}\label{when-economic-policies-go-wrong-joseph-stalin}
+
+Clearly, the stakes are very high in getting our economic policies
+right. The Soviet leader Stalin is believed to have caused about 40
+million deaths during the 1930s in the then Soviet Union in an attempt
+to collectivize agriculture. For more on Stalin's policies and their
+effects see:
+
+\begin{itemize}
+\item
+  \emph{Harvest of Sorrow: Soviet Collectivization and the
+  Terror-Famine} by Robert Conquest, Oxford University Press, New York,
+  NY, 1986, ISBN 0195051807.
+\item
+  \emph{Bloodlands: Europe Between Hitler and Stalin} by Timothy Snyder,
+  Basic Books, New York, NY, 2010, ISBN 978-0465002399.
+\end{itemize}
+
+\subsubsection{When Economic Policies Go Wrong---Mao
+Zedong}\label{when-economic-policies-go-wrongmao-zedong}
+
+During 1958-61 there was a famine in China that is estimated to have
+killed 30 million people. Those deaths were largely due to the Chinese
+leader Mao Zedong's failed economic policy---grandly called ``the great
+leap forward''---of the forced industrialization of China's agricultural
+economy.
+
+For more on Mao's policies and the famine that they caused please read:
+
+\begin{itemize}
+\item
+  Tombstone: The Great Chinese Famine, 1958-1962 by Yang Jisheng,
+  Farrar, Straus and Giroux, New York, NY, 2012, ISBN 978-0374277932.
+\item
+  Hungry Ghosts: Mao's Secret Famine by Jasper Becker, Free Press, New
+  York, NY, 1996, ISBN: 068483457X.
+\item
+  Mao's Great Famine: The History of China's Most Devastating
+  Catastrophe by Frank Dikotter, Walker \& Co., New York, NY, 2010,
+  ISBN: 978-0-8027-7768-3.
+\end{itemize}
+
+\section{How Do Economists Do What They Are Expected to
+Do?}\label{how-do-economists-do-what-they-are-expected-to-do}
+
+\subsection{Economists make simplifying
+assumptions}\label{economists-make-simplifying-assumptions}
+
+The simplifications help economists make predictions about the likely
+consequences of different policy options.
+
+Economists usually disagree about their predictions. This is because
+different economists make different simplifying assumptions.
+
+They try to use data to sort out their disagreements. If all goes well,
+economists may come up with unambiguous and useful advice for policy
+makers.
+
+An actual economy is extremely complex. So, it is hard to think about
+how it would respond to, say, an increase in income tax rates.
+Therefore, it would be hard to make even a theoretical prediction of a
+tax hike's effect on, say, the unemployment rate.\footnote{Remember,
+  this is the sort of prediction that the nation might need.} So
+economists need to make simplifying assumptions in their analyses. They
+need to imagine a simpler economy because it might be easier to make a
+prediction for the simplified imaginary economy than for the complex
+actual economy.
+
+These simplifying assumptions must be very carefully chosen, however, so
+that the hypothetical simplified economy is not too dissimilar to the
+actual economy, and is, at the same time, easier to analyze than the
+actual economy.
+
+\subsubsection{Predictions: Examples}\label{predictions-examples}
+
+\begin{itemize}
+\item
+  If income tax rates are increased, the nation's unemployment rate will
+  increase.
+\item
+  If Florida has a severe winter, the price of orange juice will
+  increase.
+\item
+  If the price of imported oil goes up, the nation's gross domestic
+  product will decrease.
+\item
+  If the tax per airline ticket is increased, the price of hotel rooms
+  will decrease.
+\end{itemize}
+
+\subsubsection{Predictions: Disagreements Are
+Inevitable}\label{predictions-disagreements-are-inevitable}
+
+There is no universally accepted way for economists to decide which
+simplifying assumptions are the most appropriate. Different economists
+when asked the same question---say, How will an income tax hike affect
+unemployment?---may make different simplifying assumptions in their
+analyses. Therefore, they may end up making different predictions.
+
+\subsubsection{Data Helps to Sort Out
+Disagreements}\label{data-helps-to-sort-out-disagreements}
+
+When economists disagree, the right kind of historical evidence may help
+them decide which economist's prediction to trust. A large part of the
+economist's job is to dig up evidence from the past, and use the
+evidence to test the clashing theories that various economists may
+propose.
+
+\section{Why Does the Economist's Method Sometimes
+Fail?}\label{why-does-the-economists-method-sometimes-fail}
+
+We have just seen that different economists may give different answers
+(predictions) for the same question. Those disagreements can't always be
+sorted out. (Why?) This leaves the general public puzzled and annoyed.
+
+\subsection{Economists' Disagreements Can't Always Be Sorted
+Out}\label{economists-disagreements-cant-always-be-sorted-out}
+
+Often there isn't enough data. When there isn't enough data, one may not
+be able to choose between clashing theories or predictions.
+
+Economists generally can't do experiments. Even if there is a lot of
+historical data, there is no guarantee that a study of the past will
+help in identifying the best theory or prediction. If you toss a coin
+ten thousand times, you would be no better at predicting the ten
+thousand and first toss as you were at predicting the first toss.
+
+\section{What Is Macroeconomics? What Is
+Microeconomics?}\label{what-is-macroeconomics-what-is-microeconomics}
+
+Macroeconomics deals with questions about variables that describe the
+economy of an entire nation. Microeconomics deals with questions related
+to individual economic agents, such as households and firms.
+
+\subsection{Macroeconomics}\label{macroeconomics}
+
+Macroeconomics deals with issues related to data that give summary
+descriptions of the economy of an entire nation. A macroeconomist would
+ponder questions such as: What would happen to Uzbekistan's unemployment
+rate if Japan suddenly stops trading with Uzbekistan and what policy
+should the government of Uzbekistan then follow? The focus would always
+be on Uzbekistan as a whole.
+
+\subsection{Microeconomics}\label{microeconomics}
+
+Microeconomics deals with questions related to economic variables that
+describe a sub-national entity, typically individual economic agents,
+such as households and firms.
+
+\subsection{Macro and Micro Are
+Related}\label{macro-and-micro-are-related}
+
+One cannot really do macroeconomics without simultaneously doing
+microeconomics. One cannot analyze an economy without studying the
+behavior of the individual economic units that make up that economy.
+
+Conversely, the decisions by individuals are often guided by their
+expectations about incomes, interest rates, inflation, and the like. And
+these expectations cannot be understood without an analysis of the
+economy as a whole.
+
+However, in macroeconomics the microeconomic underpinnings are
+de-emphasized. Conversely, in microeconomics the macroeconomic
+foundations of people's expectations are de-emphasized.
+
+This course focuses on microeconomics.
+
+\bookmarksetup{startatroot}
+
+\chapter{The Gains from Trade}\label{sec-trade}
+
+\section{Chapter Outline}\label{chapter-outline-1}
+
+\begin{itemize}
+\item
+  Why study trade?
+\item
+  Why Do We Trade?
+
+  \begin{itemize}
+  \item
+    Because our preferences are different
+  \item
+    Because we are differently endowed with skills, technologies, and
+    natural resources
+
+    \begin{itemize}
+    \item
+      Opportunity costs and trade
+    \item
+      Comparative advantage and the gains from trade
+    \item
+      Opportunity costs and technology
+    \item
+      Graphing production possibilities
+    \end{itemize}
+  \item
+    Because there are efficiency advantages to doing one thing rather
+    than many things
+  \end{itemize}
+\end{itemize}
+
+\section{Why Should We Study Trade?}\label{why-should-we-study-trade}
+
+People trade with each other---a lot. Do you know anyone who makes all
+the things he or she consumes? To understand our world we need to
+understand why people trade so much. We need to understand whether trade
+is good for us or bad for us. Understanding this is important precisely
+because we trade a lot.
+
+\section{Why Do We Trade?}\label{why-do-we-trade}
+
+\begin{itemize}
+\item
+  Because our preferences are different.
+\item
+  Because we are differently endowed with skills, technologies, and
+  natural resources.
+\item
+  Because there are efficiency advantages to doing one thing rather than
+  many things.
+\end{itemize}
+
+\subsection{Why Do We Trade? Because Our Preferences are
+Different}\label{why-do-we-trade-because-our-preferences-are-different}
+
+Imagine a two-country world. Fishing is the only work people do. When
+people go out to catch fish, equal amounts of salmon and cod always get
+caught in the nets. The two countries are identical except for different
+preferences: People in one country like salmon and people in the other
+country like cod.
+
+Naturally, this difference in preferences will lead to trade: the salmon
+lovers will export the cod they catch to the cod lovers, and vice versa.
+
+But, this kind of trade is not very relevant to the world we live in.
+So, I'll move on.
+
+\subsection{Why Do We Trade? Because we are differently endowed with
+skills, technologies, and natural
+resources}\label{why-do-we-trade-because-we-are-differently-endowed-with-skills-technologies-and-natural-resources}
+
+\subsubsection{Imagine a simplified version of our
+world}\label{imagine-a-simplified-version-of-our-world}
+
+Imagine a world with:
+
+\begin{itemize}
+\item
+  only two goods: potatoes and meat, and
+\item
+  only two people: a potato farmer and a cattle rancher.
+\end{itemize}
+
+What amounts of each good should each of them produce? Should they
+trade?
+
+\paragraph{Quick Detour}\label{quick-detour}
+
+Why am I assuming a world with only two goods and only two people? We
+have seen in Chapter~\ref{sec-introduction} that simplicity is often key
+to clarifying an idea.But in that case why not assume a world with just
+one good and/or just one person?
+
+\subsubsection{Make or Buy?}\label{make-or-buy}
+
+If you want something, should you make it yourself? Or should you make
+something else and then trade it for the thing you need?
+
+To understand whether a person would make a particular thing or buy it
+from another person, we need to compare, for that person, the cost of
+making it with the price of buying it (from the other person). So, let
+us begin with the cost of making a thing.
+
+\subsubsection{Opportunity Cost}\label{opportunity-cost}
+
+In our story, the farmer can produce both meat and potatoes. However, as
+the farmer has a finite amount of the resources needed for production, a
+one-unit increase in his meat production will cause a decrease in his
+potato production The decrease in the farmer's potato production that is
+caused by a one-unit increase in his meat production is his opportunity
+cost of meat.
+
+Note that the opportunity cost is not measured in dollars. The
+opportunity cost of additional meat production is measured by the amount
+of potato production that is sacrificed.
+
+\subsubsection{Opportunity Cost:
+Generalized}\label{opportunity-cost-generalized}
+
+Stepping away briefly from our meat-potatoes example \ldots{} The
+opportunity cost of obtaining some thing is everything that you'll have
+to give up to get that thing.
+
+Can you apply the concept of opportunity cost to your own life? What is
+the opportunity cost, for you, of taking an additional math course? List
+all the activities you normally engage in every day. Think about all the
+sacrifices you will have to make if you were to enroll in an additional
+math course. That's your opportunity cost of taking an additional math
+course this semester.
+
+\subsubsection{Opportunity Cost and Trade: What if we were all pretty
+similar?}\label{opportunity-cost-and-trade-what-if-we-were-all-pretty-similar}
+
+Suppose the opportunity cost of an ounce of meat is 3 ounces of potatoes
+for both Farmer and Rancher. Will they trade?
+
+No.~Trade would be pointless in this case.
+
+One can easily imagine our Farmer making the following piych to our
+Rancher: ``For me, the cost of making 1 ounce of meat is 3 ounces of
+potatoes. I'll buy 1 ounce of meat from you if you charge a price that
+is less than 3 ounces of potatoes. Deal?''
+
+This is probably how our Rancher will respond: ``For me, the cost of
+making 1 ounce of meat is 3 ounces of potatoes. So, I can sell you 1
+ounce of meat only for a price that is more than 3 ounces of potatoes.
+So, sorry, no deal!''
+
+This exchange illustrates the idea that trade is pointless when
+opportunity costs are the same for all producers.
+
+\textbf{Key idea:} If people have similar opportunity costs for some
+commodity, then they would probably not trade in that commodity with
+each other.
+
+\subsubsection{Opportunity Cost and Trade: What if we were all pretty
+different?}\label{opportunity-cost-and-trade-what-if-we-were-all-pretty-different}
+
+Let's change our story a bit. Suppose the opportunity cost of an ounce
+of meat is 4 ounces of potatoes for Farmer and 2 ounces of potatoes for
+Rancher. Now, will they trade?
+
+Yes! Rancher will offer to sell meat to farmer at a price between 2 and
+4 ounces of potatoes per ounce of meat. Farmer will gladly accept. Both
+farmer and rancher will be better off.
+
+One can easily imagine our Farmer making the following piych to our
+Rancher: ``For me, the cost of making 1 ounce of meat is 4 ounces of
+potatoes. I'll buy 1 ounce of meat from you if you charge a price that
+is less than 4 ounces of potatoes. Deal?''
+
+And this is probably how our Rancher will respond: ``For me, the cost of
+making 1 ounce of meat is 2 ounces of potatoes. So, I can sell you 1
+ounce of meat only for a price that is more than 2 ounces of potatoes.
+Deal!''
+
+Rancher will offer to sell meat to farmer at a price between 2 and 4
+ounces of potatoes per ounce of meat. Farmer will gladly accept. Rancher
+will increase his meat production \ldots{} and, therefore, decrease his
+potato production. Rancher will sell meat to Farmer and get paid in
+potatoes.
+
+Conversely, Rancher will offer to sell meat to Farmer at a price between
+2 and 4 ounces of potatoes per ounce of meat. Farmer will gladly accept.
+Farmer will increase his potato production \ldots{} and, therefore,
+decrease his meat production. Farmer will sell potatoes to Rancher and
+get paid in meat.
+
+\subsubsection{Opportunity Cost and Trade: Key
+Ideas}\label{opportunity-cost-and-trade-key-ideas}
+
+Our example suggests the following important ideas that connect
+opportunity costs and trade.
+
+\begin{itemize}
+\item
+  If people have different opportunity costs for some commodity, then
+  they will trade in that commodity with each other.
+\item
+  For any commodity, the person whose opportunity cost is lower will be
+  the seller and the person whose opportunity cost is higher will be the
+  buyer.
+\item
+  The price at which the trading occurs will be somewhere between the
+  two traders' opportunity costs.
+\item
+  When trade becomes possible, every producer increases his production
+  of the commodity for which his opportunity cost is lower \ldots{} and
+  decreases his production of the commodity for which his opportunity
+  cost is higher.
+\item
+  Trade causes people to do more of what they do well and less of what
+  they don't do well. This is the key reason why we trade so much.
+\end{itemize}
+
+\subsubsection{Comparative Advantage}\label{comparative-advantage}
+
+Key Definition: The producer with the lower opportunity cost in the
+production of a commodity is said to have a comparative advantage in the
+production of that commodity.
+
+In our example, in potato production, Farmer has the comparative
+advantage. In meat production, Rancher has the comparative advantage.
+
+Trade makes people specialize in the production of the good they have a
+comparative advantage in. In our example, Rancher has a comparative
+advantage in producing meat. Trade gives the rancher the incentive to
+expand meat production for sale (export) to the farmer. That is, trade
+gives the rancher the incentive to specialize in what he does best.
+
+\subsection{Comparative advantage and the gains from
+trade}\label{comparative-advantage-and-the-gains-from-trade}
+
+Why Is Trade Good for Us? In our example, trade benefits both the Farmer
+and the Rancher by enabling each person to do only what he is better
+suited to do. Imagine what it would be like if you were required to
+produce everything that you needed. The situation would be similarly
+awful for a country that either chose not to trade with other countries
+or was forced to end all trade with other countries.
+
+\subsubsection{Theory of Comparative
+Advantage}\label{theory-of-comparative-advantage}
+
+The Theory of Comparative Advantage says that if each person specializes
+in producing what he or she has a comparative advantage in, then total
+production of every good can increase. As a result, trade can benefit
+everybody.
+
+In our example, the theory says that if Farmer specializes in potatoes
+and Rancher specializes in meat, the total production of meat can be
+increased and the total production of potatoes can also be increased. As
+a result, if Rancher and Farmer then trade, they could both benefit. But
+is this theory true? Theory of Comparative Advantage---Proof Suppose
+Farmer increases his production of potatoes by 4 ounces. Then, according
+to Table 1, his production of meat must decrease by 1 ounce. Suppose
+Rancher increases his production of meat by 1.5 ounces. Then his
+production of potatoes must decrease by 3 ounces. Therefore, by making
+these two people specialize according to their comparative advantages,
+it is possible to increase the total output of meat by 0.5 ounces and of
+potatoes by 1 ounce. Wow! We have just witnessed a miracle---the miracle
+of trade. For an individual, it is impossible to make more of one good
+without making less of some other good. But for the world as a whole, it
+is possible to produce more of all goods simultaneously if we embrace
+trade. The Legacy of Adam Smith and David Ricardo Adam Smith In his 1776
+book An Inquiry into the Nature and Causes of the Wealth of Nations,
+Adam Smith performed a detailed analysis of trade and economic
+interdependence, which economists still adhere to today. David Ricardo
+In his 1816 book Principles of Political Economy and Taxation, David
+Ricardo developed the principle of comparative advantage as we know it
+today. Opportunity costs are related to technology Opportunity Costs and
+Trade We have just seen that opportunity costs are crucial for
+understanding trade What makes opportunity costs vary from person to
+person or from country to country? One answer is technology Technology
+Explains Opportunity Cost Key idea: Different people/countries may have
+different technologies and this causes them to have different
+opportunity costs
+
+Let us now see a numerical example of how differences in technology lead
+to differences in opportunity costs
+
+Production Technologies of the Farmer and Rancher Opportunity Costs of
+Farmer 1 ounce of meat → 60 minutes. 1 ounce of potatoes → 15 minutes. 4
+ounces of potatoes → 60 minutes. Therefore, Farmer's opportunity cost of
+1 ounce of meat is 4 ounces of potatoes. Opportunity Costs of Farmer 1
+ounce of potatoes → 15 minutes. 1 ounce of meat → 60 minutes. ¼ ounce of
+meat → 15 minutes. Therefore, Farmer's opportunity cost of 1 ounce of
+potatoes is ¼ ounces of meat.
+
+Opportunity Costs of Rancher 1 ounce of meat → 20 minutes. 1 ounce of
+potatoes → 10 minutes. 2 ounces of potatoes → 20 minutes. Therefore,
+Rancher's opportunity cost of 1 ounce of meat is 2 ounces of potatoes.
+
+Opportunity Costs of Rancher 1 ounce of potatoes → 10 minutes. 1 ounce
+of meat → 20 minutes. ½ ounce of meat → 10 minutes. Therefore, Rancher
+'s opportunity cost of 1 ounce of potatoes is ½ ounces of meat.
+
+Reminder: Opportunity Costs and Comparative Advantage Farmer has a
+comparative advantage in potatoes and Rancher has a comparative
+advantage in meat. Technological differences are an important reason why
+we trade To sum up, we have so far seen that Trade happens if and only
+if opportunity costs vary from person to person (or from country to
+country) Differences in technological abilities can lead to differences
+in opportunity costs If you are curious: Absolute Advantage and
+Comparative Advantage If Farmer can make an ounce of potatoes in less
+time than Rancher needs to do the same, then Farmer is said to have an
+absolute advantage in making potatoes On the other hand, as we have seen
+already, if Farmer can make an ounce of potatoes at a lower opportunity
+cost than Rancher can, then Farmer is said to have a comparative
+advantage in making potatoes If you are curious: Absolute Advantage and
+Comparative Advantage At one point, economists thought that two people
+would trade if and only if each had an absolute advantage in the
+production of some commodity. David Ricardo, a nineteenth-century
+British economist, later showed that absolute advantage is irrelevant.
+Two people would trade if and only if each had a comparative advantage
+in the production of some commodity.
+
+Gains from Trade have Nothing to Do with Technological Superiority If
+you are curious: Absolute Advantage and Comparative Advantage If you are
+curious: Absolute Advantage and Comparative Advantage If you are
+curious: Absolute Advantage and Comparative Advantage Exercise:
+calculation of opportunity costs from technology We have seen how
+opportunity costs can be calculated from the 2nd and 3rd columns (blue
+border) of the technology table below But can you do it using the 4th
+and 5th columns (brown border) instead?
+
+\subsection{Graphing production
+possibilities}\label{graphing-production-possibilities}
+
+Rancher's Production Possibilities: Further Details Rancher's Production
+Possibilities Frontier Rancher's Production Possibilities Frontier The
+Production Possibilities Frontier The PPF graphically illustrates the
+fact that we face trade-offs If either person increases his production
+of meat, his production of potatoes must decrease. When there is no
+trade, each person must consume what he produces. In that case, if
+either person increases his consumption of meat, his consumption of
+potatoes must decrease. Farmer's Production Possibilities The Farmer's
+Production Possibilities Frontier The Production Possibilities Frontier
+Can Shift More Meat and More Potatoes? It may be possible to increase
+one's consumption of both meat and potatoes---as in the last
+slide---if\ldots{} More resources or better resources become available,
+or Technology becomes more advanced, or Farmer and Rancher begin to
+trade More Meat and More Potatoes? Trade can increase the overall
+production---and consumption---of both goods even if resources and
+technology remain unchanged. This is the miracle of trade. The
+Production Possibilities Frontier The production possibilities frontier
+is a graph that shows the combinations of output that the economy can
+produce, given the available factors (resources) of production and the
+available production technology. The Production Possibilities Frontier
+The Production Possibilities Frontier Concepts illustrated by the
+production possibilities frontier Efficiency Trade-offs Opportunity cost
+Economic growth A Shift in the Production Possibilities Frontier Q: Why
+Do We Trade? A:
+
+\section{Beyond Comparative Advantage: Other Reasons Why Trade
+Occurs}\label{beyond-comparative-advantage-other-reasons-why-trade-occurs}
+
+There are efficiency advantages to doing one thing rather than many
+things. Differences in Opportunity Costs Can't be the Only Explanation
+for Trade. Why is Canada our main trade partner despite being so similar
+to the US?
+
+Trade allows us to fully utilize the benefits of bulk production by
+allowing each country's production to be sold everywhere. Trade
+intensifies competition and squeezes out inefficient production.
+
+\section{What next?}\label{what-next}
+
+We have seen why trade occurs? But when trade does occur, at what price
+will it occur? In showing how trade can make Farmer and Rancher better
+off, I worked out an example of how trade could occur. Specifically, I
+showed that if 1.25 ounces of meat are traded for 3.5 ounces of
+potatoes, both Farmer and Rancher would be better off. But will trade
+take place? And if it does, at what price will people trade? That's the
+subject of the next chapter.
+
+\bookmarksetup{startatroot}
+
+\chapter{The Market Forces of Demand and
+Supply}\label{sec-supply_demand}
+
+In Chapter~\ref{sec-trade}, I discussed some of the reasons why people
+trade with each other. Unfortunately, that chapter had little to say
+about the price at which one good is traded for another. In this
+chapter, I will begin to fill that gap.
+
+I will assume an economy in which people trade a great deal. I will
+assume that there are well developed \emph{markets} in which each traded
+commodity -- a good or a service or an asset -- is bought and sold.
+
+A good starting point in the description of all the buying and selling
+that goes on in the market for a traded commodity are two variables:
+\emph{price} and \emph{quantity}. If I am interested in the market for,
+say, apples, I would want to know the price of an apple and the quantity
+of apples bought and sold, say, every month.
+
+I want a \emph{theory} of the price and the quantity. That is, I want a
+consistent and systematic way to think about observed changes in the
+price and the quantity.
+
+\section{Why do we need a theory of prices and
+quantities?}\label{why-do-we-need-a-theory-of-prices-and-quantities}
+
+Recall from Chapter~\ref{sec-introduction} that in economics we need to
+be able to \emph{predict} the economic consequences of:
+
+\begin{itemize}
+\tightlist
+\item
+  alternative policies, and
+\item
+  events outside our control that we need to be prepared for.
+\end{itemize}
+
+For both individuals and for societies, reliable predictions guide our
+choices. The reliability of a prediction cannot be established without
+careful analysis of data (obtained either from historical observation or
+from experiments). But in many cases we do not have data-based
+measurements of the reliability of a prediction. In such cases, we can
+at least check whether a prediction is based on logically consistent
+reasoning.
+
+A prediction needs to come out of a theory, which is a systematic and
+rational use of logic. In other words, the mental tool we use to make
+predictions is a theory.\footnote{A theory is of no use if its
+  predictions are inaccurate. For any theory, we need to measure how
+  accurate the predictions of the theory are. We may be able to do this
+  using the tools of
+  \href{https://en.wikipedia.org/wiki/Statistics}{statistics} and
+  \href{https://en.wikipedia.org/wiki/Econometrics}{econometrics}. Those
+  subjects are not discussed in these lectures.}
+
+To further explore the need for a theory of prices, consider yourself
+casting a vote in an election. You may want to make a rational
+comparison of the policies espoused by candidates \emph{A}, \emph{B},
+and \emph{C}. You will need to imagine the state of your community under
+policies \emph{A}, \emph{B}, and \emph{C}. To do that you will need to
+imagine the behavior of the people of your community under policies
+\emph{A}, \emph{B}, and \emph{C}. To do that you will need to figure out
+the incentives that the people of your community will face under
+policies \emph{A}, \emph{B}, and \emph{C}. And, because prices are often
+(if not always) a crucial incentive (or even \emph{the} crucial
+incentive), you will need to figure out the prices that the people of
+your community will face under policies \emph{A}, \emph{B}, and
+\emph{C}. And to have a logically consistent way to predict the prices
+that the people of your community will face under policies \emph{A},
+\emph{B}, and \emph{C}, you will need \emph{a theory of prices}.
+
+This is why the theory of prices is so crucial. There is hardly a single
+social issue where a rational comparison of policy options would not
+require a theory of how prices would be affected by the policy options
+being compared.
+
+And that is why this entire course is about prices. Indeed, another name
+for microeconomics is \emph{price theory}.
+
+\section{The Punchline}\label{the-punchline}
+
+Before we begin this course on prices, let's give away the punchline: In
+a market-based economy, \emph{the price of a commodity will be high if}
+the commodity is:
+
+\begin{itemize}
+\tightlist
+\item
+  Highly desired,
+\item
+  Costly to produce, and/or
+\item
+  Sold under little or no competition among sellers.
+\end{itemize}
+
+The rest of this course is an extended discussion of the previous
+sentence. I begin, in this chapter, with a simple yet fundamental
+theory: the theory of demand and supply.
+
+\section{The theory of demand and
+supply}\label{the-theory-of-demand-and-supply}
+
+The theory of demand and supply is a simple example of an economic
+theory. It can be used to make predictions about:
+
+\begin{itemize}
+\tightlist
+\item
+  the price and
+\item
+  the quantity traded, of some traded commodity.
+\end{itemize}
+
+For example, the theory of demand and supply can help you make a
+prediction about the effect of unusually cold weather on the price and
+the quantity traded of home heating oil in New York.
+
+Keep in mind that it is crucial to be able to predict prices because
+prices are the most important economic incentives in a market-based
+economy.
+
+\subsection{Assumptions: Perfect
+Competition}\label{assumptions-perfect-competition}
+
+The theory of supply and demand assumes that each commodity is traded by
+buyers and sellers dealing directly with each other in the market for
+that commodity. Coffee is bought and sold in the market for coffee,
+apples are bought and sold in the market for apples, etc.\footnote{When
+  I refer to the ``market for coffee'', I simply mean the buyers and
+  sellers of coffee and the rules they obey when they trade.} Any buyer
+in a market may buy from any seller and any seller may sell to any
+buyer.
+
+The theory of supply and demand also assumes that commodities are traded
+in perfectly competitive markets. A \emph{perfectly competitive market}
+is one in which:
+
+\begin{itemize}
+\tightlist
+\item
+  there are many buyers,
+\item
+  there are many sellers, and
+\item
+  all sellers sell the exact same product.
+\end{itemize}
+
+As a result, under perfect competition, the price of a commodity will be
+the same in every single trade of that commodity. As there are many
+buyers, no seller has any need to offer a special low price to a
+particular buyer. Similarly, as there are may sellers, no buyer has any
+need to pay a special high price to a particular seller. So, all buying
+and selling must occur at the same price and we refer to that price as
+\emph{the market price}.\footnote{The market price may, of course, be
+  different in different situations. But all trade in a given situation
+  must take place at the same price, which we call the market price.
+  Under \href{https://en.wikipedia.org/wiki/Monopoly}{monopoly} -- a
+  market with only one seller -- it is possible that the monopolist may
+  charge different buyers different prices, a phenomenon called
+  \href{https://en.wikipedia.org/wiki/Price_discrimination}{price
+  discrimination}.}
+
+As there are many buyers and many sellers all selling the same
+commodity, each buyer and each seller has a negligible impact on the
+market price: everybody is a \emph{price taker}.
+
+\subsubsection{Exercise}\label{exercise}
+
+Are the markets for these commodities perfectly competitive?
+
+\begin{itemize}
+\tightlist
+\item
+  Wheat
+\item
+  White cotton T-shirts
+\item
+  Automobiles
+\item
+  Cable TV in your locality
+\item
+  Electricity for home use in your locality
+\end{itemize}
+
+\subsubsection{Other kinds of markets}\label{other-kinds-of-markets}
+
+What's the opposite of perfect competition? Imperfect competition, of
+course. Specifically, we will discuss:
+
+\begin{itemize}
+\tightlist
+\item
+  Monopoly (one seller)
+\item
+  Monopolistic Competition (many sellers, differentiated products)
+\item
+  Oligopoly (small number of sellers)
+\end{itemize}
+
+\section{Demand}\label{demand}
+
+How should we describe the behavior of buyers?
+
+\subsection{Quantity demanded}\label{quantity-demanded}
+
+Quantity demanded is the amount of a commodity that buyers are willing
+and able to purchase.
+
+The quantity demanded of a good/service depends on:
+
+\begin{itemize}
+\tightlist
+\item
+  The price of the good/service
+\item
+  The prices of related goods/services
+\item
+  Buyers' incomes
+\item
+  Buyers' tastes
+\item
+  Buyers' expectations about future prices and incomes
+\item
+  Number of buyers,
+\item
+  etc.
+\end{itemize}
+
+\subsection{Demand}\label{demand-1}
+
+Demand is a full description of how the quantity demanded changes as the
+price of the commodity changes.
+
+\subsection{An Individual's Demand Schedule and Demand
+Curve}\label{an-individuals-demand-schedule-and-demand-curve}
+
+\subsection{Market Demand is the Sum of Individual
+Demands.}\label{market-demand-is-the-sum-of-individual-demands.}
+
+\subsection{Law of Demand}\label{law-of-demand}
+
+The law of demand states that the quantity demanded of a good falls when
+the price of the good rises, and vice versa, provided all other factors
+that affect buyers' decisions are unchanged.
+
+\subsection{Why Might Demand Increase?}\label{why-might-demand-increase}
+
+How can we explain the difference in Catherine's behavior in situations
+A and B? Why does she consume more in situation B at every possible
+price?
+
+\subsubsection{Shifts in the Demand Curve Caused by Changes In Consumer
+Income}\label{shifts-in-the-demand-curve-caused-by-changes-in-consumer-income}
+
+As income increases the demand for a \emph{normal good} will increase.
+
+As income increases the demand for an \emph{inferior good} will
+decrease.
+
+Example: If restaurant food is a normal good, then Demand shifts right
+when incomes rise. If fast food is an inferior good, then Demand shifts
+left when incomes rise.
+
+\subsubsection{Shifts in the Demand Curve Caused by Changes in Prices of
+Related
+Goods}\label{shifts-in-the-demand-curve-caused-by-changes-in-prices-of-related-goods}
+
+When a \emph{decrease} in the price of one good \emph{decreases} the
+demand for another good, the two goods are called \emph{substitutes}.
+
+When a \emph{decrease} in the price of one good \emph{increases} the
+demand for another good, the two goods are called \emph{complements}.
+
+Example: If Pepsi and Coke are substitutes, then Pepsi's demand
+decreases (shifts left) when Coke's price decreases. If Cars and
+gasoline are complements, then the demand for cars increases (shifts
+right) when the price of gas decreases.
+
+\subsection{The Law of Demand:
+Explanations}\label{the-law-of-demand-explanations}
+
+There are two ways to explain the Law of Demand:
+
+\begin{itemize}
+\tightlist
+\item
+  Substitution effect
+\item
+  Income effect
+\end{itemize}
+
+\subsubsection{The Law of Demand: Explanations: Substitution
+Effect}\label{the-law-of-demand-explanations-substitution-effect}
+
+When the price of a good decreases, consumers substitute that good
+instead of other competing (substitute) goods.
+
+\subsubsection{The Law of Demand: Explanations: Income
+Effect}\label{the-law-of-demand-explanations-income-effect}
+
+A decrease in the price of a commodity is essentially equivalent to an
+increase in consumers' income. That is, Lower Prices = Higher Income.
+Consumers respond to a decrease in the price of a commodity as they
+would to an increase in income. They increase their consumption of a
+wide range of goods, including the good that had a price decrease.
+
+We have used the substitution effect and the income effect to show that
+the Law of Demand is true for normal goods.
+
+Can you imagine an example where the Law of Demand is not true?
+
+\section{Supply}\label{supply}
+
+How can we describe the behavior of sellers?
+
+\subsection{Quantity supplied}\label{quantity-supplied}
+
+Quantity supplied is the amount of a good that sellers are willing and
+able to sell.
+
+The quantity supplied of a good/service depends on:
+
+\begin{itemize}
+\tightlist
+\item
+  The price of the good/service
+\item
+  The prices of raw materials and labor
+\item
+  Technology
+\item
+  Number of sellers,
+\item
+  etc.
+\end{itemize}
+
+\subsection{Supply}\label{supply-1}
+
+Supply is a full description of how the quantity supplied of a commodity
+responds to changes in its price.
+
+\subsubsection{Individual's supply schedule and supply
+curve}\label{individuals-supply-schedule-and-supply-curve}
+
+\subsubsection{Market supply and individual
+supplies}\label{market-supply-and-individual-supplies}
+
+\subsubsection{Law of Supply}\label{law-of-supply}
+
+The law of supply states that, the quantity supplied of a good increases
+when the price of the good increases, and vice versa, provided all other
+factors that affect suppliers' decisions are unchanged.
+
+\subsubsection{Law of Supply:
+Explanation}\label{law-of-supply-explanation}
+
+How can we make sense of the numbers in Ben's supply schedule? The best
+guess is that his costs must be something like the cost schedule below.
+
+\subsection{Shifts in the Supply Curve: What causes
+them?}\label{shifts-in-the-supply-curve-what-causes-them}
+
+How could Ben's supply have increased?
+
+\section{Equilibrium}\label{equilibrium}
+
+Now it is time to say something about how buyers and sellers
+collectively determine the market outcome. To do this, we assume
+\emph{equilibrium}.
+
+The theory of supply and demand assumes that the market price
+automatically reaches a level at which the quantity demanded equals the
+quantity supplied.
+
+\subsection{Can we justify the assumption of
+equilibrium?}\label{can-we-justify-the-assumption-of-equilibrium}
+
+If the market price exceeds equilibrium price, then the quantity
+supplied exceeds the quantity demanded. This is called \emph{excess
+supply} or a \emph{surplus}. In such a situation, sellers will be forced
+to cut their prices, thereby moving the market price closer to
+equilibrium.
+
+If the market price is less than the equilibrium price, then the
+quantity supplied is less than the quantity demanded. This is called
+\emph{excess demand} or a \emph{shortage}. Sellers will increase the
+market price, because too many buyers are chasing too few goods, thereby
+moving the market price closer to the equilibrium price.
+
+The market price of a good adjusts to bring the quantity supplied and
+the quantity demanded for that good into balance.
+
+\subsubsection{Equilibrium: skepticism
+required}\label{equilibrium-skepticism-required}
+
+Although the Law of Supply and Demand is a good place to start the
+discussion of prices, it should not be taken to be the gospel truth. In
+some cases the price might get stuck at some other level and quantity
+supplied and quantity demanded may not be equal.
+
+One example is unemployment. Unemployment is a failure of equilibrium
+when the wage is too high and stuck there.
+
+\section{Making predictions}\label{making-predictions}
+
+Is the theory of supply and demand of any use? Let's use the theory to
+make some predictions. We have seen some of the factors that shift the
+demand and supply curves. Such shifts change the equilibrium outcome.
+
+Using the supply-demand theory we can try to predict the consequences
+of:
+
+\begin{itemize}
+\tightlist
+\item
+  alternative policy proposals, and
+\item
+  events outside our control that we need to be ready for.
+\end{itemize}
+
+\subsection{How an Increase in Demand Affects the
+Equilibrium}\label{how-an-increase-in-demand-affects-the-equilibrium}
+
+\subsection{How a Decrease in Supply Affects the
+Equilibrium}\label{how-a-decrease-in-supply-affects-the-equilibrium}
+
+\subsubsection{Eggflation! Supply Decrease in the
+News}\label{eggflation-supply-decrease-in-the-news}
+
+\href{https://youtu.be/WAwEXycDhzY}{What's causing the price of eggs to
+skyrocket nationwide}, PBS Newshour, YouTube, January 30, 2023
+
+\subsection{A Shift in Both Supply and
+Demand}\label{a-shift-in-both-supply-and-demand}
+
+\subsubsection{Exercises}\label{exercises}
+
+Can you predict:
+
+\begin{itemize}
+\tightlist
+\item
+  The effect of the Covid-19 pandemic:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \ldots{} on the price of gasoline?
+  \item
+    \ldots{} on the price of Manhattan real estate?
+  \end{itemize}
+\item
+  The effect of a rise in the price of oil on the market for:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Hybrid cars
+  \item
+    Real estate
+  \item
+    Staple foods (corn, wheat, rice)
+  \end{itemize}
+\item
+  The effect of the development of cheaper and better batteries for
+  electric cars on the market for:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    traditional cars
+  \item
+    gas
+  \end{itemize}
+\end{itemize}
+
+\section{The Scope of the theory of supply and
+Demand}\label{the-scope-of-the-theory-of-supply-and-demand}
+
+The theory can be applied to other kinds of markets, such as:
+
+\begin{itemize}
+\tightlist
+\item
+  Factor/resource markets
+\item
+  Assets markets
+\item
+  Prediction markets
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{Elasticity}\label{elasticity}
+
+In Chapter~\ref{sec-supply_demand}, we saw that:
+
+\begin{itemize}
+\tightlist
+\item
+  The quantity demanded of a consumer good is affected by its price, the
+  prices of other related goods, buyers' incomes, etc., and
+\item
+  The quantity supplied of a good is affected by its price, the prices
+  of raw materials, technology, etc.
+\end{itemize}
+
+But these statements are pretty vague.
+
+It would be more specific if we said that the quantity demanded of a
+consumer good increases when its price decreases, assuming that all the
+other factors that affect the quantity demanded are unchanged.
+
+But even this statement is a bit vague because it does not answer the
+``how much'' question: By how much would the quantity demanded of a
+consumer good increase when its price decreases by a certain amount.
+
+In this chapter, I will discuss how we could use the concept of
+\emph{elasticity} to measure the effect of one variable on another. This
+will help us make statements that are \emph{quantitative} rather than
+merely \emph{qualitative}.
+
+\section{Definition of Elasticity}\label{definition-of-elasticity}
+
+Elasticity is a measure of the strength of the effect of one variable on
+another. In other words, elasticity is a measure of the
+\emph{responsiveness} of one variable to another.
+
+Suppose there are two variables, \emph{x} and \emph{y}. Let \emph{x} be
+the \emph{cause} and \emph{y} be the \emph{consequence}. The ``\emph{x}
+elasticity of \emph{y}'' is a measure of the effect on \emph{y} of
+changes in \emph{x}, when all other factors that affect \emph{y} are
+unchanged. In other words, the ``\emph{x} elasticity of \emph{y}'' is a
+measure of the responsiveness of \emph{y} to changes in \emph{x}, when
+all other factors that affect \emph{y} are unchanged.
+
+But even this definition is not precise enough to \emph{measure} the
+responsiveness of one variable to another. So, let's tighten up the
+definition.
+
+Key definition: The ``\emph{x} elasticity of \emph{y}'' is the percent
+increase in \emph{y} when there is a one percent increase in \emph{x},
+and all other factors that affect \emph{y} are unchanged.
+
+\[
+x \text{ elasticity of } y=\frac{\text{% increase in } y}{\text{% increase in }x}
+\]
+
+\subsection{Four Important
+Elasticities}\label{four-important-elasticities}
+
+\subsection{Four Important Elasticities: Price Elasticity of
+Demand}\label{four-important-elasticities-price-elasticity-of-demand}
+
+Let \emph{x}, the cause, be the \emph{price} of a commodity. Let
+\emph{y}, the consequence, be the \emph{quantity demanded} of the
+commodity. The \emph{price elasticity of demand} is the percent increase
+in the quantity demanded of a commodity when there is a one percent
+increase in the price of the commodity, and all other factors that
+affect quantity demanded are unchanged.
+
+\[
+\text{price elasticity of demand}=\frac{\text{% increase in quantity demanded}}{\text{% increase in price}}
+\]
+
+\subsection{Four Important Elasticities: Income Elasticity of
+Demand}\label{four-important-elasticities-income-elasticity-of-demand}
+
+Let \emph{x}, the cause, be the \emph{income} of the buyers. Let
+\emph{y}, the consequence, be the \emph{quantity demanded} of a
+commodity. The \emph{income elasticity of demand} is the percent
+increase in the quantity demanded of a commodity when there is a one
+percent increase in the buyers' income, and all other factors that
+affect quantity demanded are unchanged.
+
+\[
+\text{income elasticity of demand}=\frac{\text{% increase in quantity demanded}}{\text{% increase in income}}
+\]
+
+\subsection{Four Important Elasticities: Cross Price Elasticity of
+Demand}\label{four-important-elasticities-cross-price-elasticity-of-demand}
+
+Let \emph{x}, the cause, be the \emph{price} of a commodity. Let
+\emph{y}, the consequence, be the \emph{quantity demanded of a different
+commodity}. The \emph{cross-price elasticity of demand} is the percent
+increase in the quantity demanded of a commodity when there is a one
+percent increase in the price of another commodity, and all other
+factors that affect quantity demanded are unchanged.
+
+\[
+\text{cross price elasticity of demand}=\frac{\text{% increase in quantity demanded of Good B}}{\text{% increase in the price of Good A}}
+\]
+
+\subsection{Four Important Elasticities: Price Elasticity of
+Supply}\label{four-important-elasticities-price-elasticity-of-supply}
+
+Let \emph{x}, the cause, be the \emph{price} of a commodity. Let
+\emph{y}, the consequence, be the \emph{quantity supplied} of the
+commodity. The \emph{price elasticity of supply} is the percent increase
+in the quantity supplied of a commodity when there is a one percent
+increase in the price of the commodity, and all other factors that
+affect quantity supplied are unchanged.
+
+\[
+\text{price elasticity of supply}=\frac{\text{% increase in quantity supplied}}{\text{% increase in price}}
+\]
+
+\subsection{What we need to know about each of our four
+elasticities}\label{what-we-need-to-know-about-each-of-our-four-elasticities}
+
+For each of the four elasticities we have just seen, we need to know:
+
+\begin{itemize}
+\tightlist
+\item
+  how to measure it, and
+\item
+  what makes it high in some situations and low in other situations, and
+\item
+  why is it useful
+\end{itemize}
+
+\section{Price elasticity of demand
+(P.E.D.)}\label{price-elasticity-of-demand-p.e.d.}
+
+The price elasticity of demand is a measure of how strongly the quantity
+demanded of a good responds to a change in the price of that good.
+Specifically, the price elasticity of demand is the percent increase in
+the quantity demanded of a commodity when there is a one percent
+increase in the price of the commodity, and all other factors that
+affect quantity demanded are unchanged.
+
+\[
+\text{Price Elasticity of Demand}=\frac{\text{% Increase in Quantity Demanded}}{\text{% Increase in Price}}
+\]
+
+With this definition, we may be able to numerically calculate the P.E.D.
+of, say, strawberry ice cream if we had the necessary data. For example,
+if on one occasion we observed that the price increased 10 percent and
+the quantity purchased decreased 20 percent, then, assuming that all
+other factors that affect the quantity demanded/purchased were
+unchanged, we can calculate that the price elasticity of demand
+strawberry ice cream is -2.
+
+The price increase was +10 percent. As a decrease is expressed as a
+negative increase, the increase in quantity demanded was -20 percent.
+Therefore, a one percent increase in price caused a -20/+10 = -2 percent
+increase in quantity demanded. Therefore, in this case at least, the
+P.E.D. of strawberry ice cream is determined to be -2.
+
+\[
+\text{Price Elasticity of Demand}=\frac{\text{% Increase in Quantity Demanded}}{\text{% Increase in Price}}=\frac{-20}{+10}=-2
+\] Recall that in Chapter~\ref{sec-supply_demand}, we saw examples of
+numerical data on price and quantity demanded in demand schedules/tables
+and demand curves.
+
+\subsection{We often drop the negative sign in PED
+computations}\label{we-often-drop-the-negative-sign-in-ped-computations}
+
+Recall the Law of Demand from Chapter~\ref{sec-supply_demand}. It says
+that price and quantity demanded move in \emph{opposite} directions
+(provided all the other factors that affect buyers' decisions are
+unchanged). Therefore, the percent increase in price and the percent
+increase in quantity demanded will always be of opposite signs.
+Therefore, the P.E.D. formula in the previous slide will \emph{always be
+negative}. For this reason, it is quite common to ignore the sign.
+
+For the rest of this course, I will ignore the negative sign of the PED.
+Formally, I will add a negative sign to the PED formula to get rid of
+the unnecessary negative sign.
+
+\begin{equation}\phantomsection\label{eq-PED_computed}{
+\text{Price Elasticity of Demand}=-\frac{\text{% Increase in Quantity Demanded}}{\text{% Increase in Price}}=-\frac{-20}{+10}=+2
+}\end{equation}
+
+\subsection{What are some of the factors that the PED depends
+on?}\label{what-are-some-of-the-factors-that-the-ped-depends-on}
+
+Which commodity will have the \emph{lower} price elasticity of demand?
+
+\begin{itemize}
+\tightlist
+\item
+  gasoline or movies?
+\item
+  insulin injections (for diabetes patients) or music downloads (on
+  iTunes)?
+\item
+  alcoholic beverages in general or Miller beer?
+\end{itemize}
+
+A 10 percent increase in gasoline prices reduces gasoline consumption by
+about 2.5 percent after a year and about 6 percent after five years.
+Why?
+
+Key Idea: P.E.D. of a consumer good tends to be higher:
+
+\begin{itemize}
+\tightlist
+\item
+  if it has many close substitutes
+\item
+  if it is a luxury commodity
+
+  \begin{itemize}
+  \tightlist
+  \item
+    That is, if the good's income elasticity of demand is high
+  \end{itemize}
+\item
+  if spending on the good is a large portion of total spending
+\item
+  if it is narrowly (rather than broadly) defined
+\item
+  if buyers are given more time to adjust to a price change
+\end{itemize}
+
+\section{Income Elasticity of Demand
+(IED)}\label{income-elasticity-of-demand-ied}
+
+Key Definition: The income elasticity of demand (IED) is the percent
+increase in the quantity demanded of a commodity when there is a one
+percent increase in the buyers' incomes, and all other factors that
+affect quantity demanded are unchanged.
+
+\[
+\text{income elasticity of demand}=\frac{\text{% increase in quantity demanded}}{\text{% increase in income}}
+\] Example: Suppose income increases 10\%, and quantity demanded
+decreases 20\%. Then income elasticity of demand is -20/+10 = -2.
+
+Note that I.E.D. can be positive, negative, or zero.
+
+\subsection{Normal Goods and Inferior
+Goods}\label{normal-goods-and-inferior-goods}
+
+Normal Goods have I.E.D. \textgreater{} 0. Inferior Goods have I.E.D.
+\textless{} 0.
+
+An increase in income leads to an increase in the quantity demanded for
+normal goods, but decreases the quantity demanded for inferior goods.
+
+\subsection{Necessities and Luxuries}\label{necessities-and-luxuries}
+
+When I.E.D. \textless{} 1 for a commodity, it is called \emph{income
+inelastic} or a \emph{necessity}.
+
+Examples of necessities include food, fuel, clothing, utilities, and
+medical services.
+
+When I.E.D. \textgreater{} 1 for a commodity, it is called \emph{income
+elastic} or a \emph{luxury}.
+
+Examples of luxuries include sports cars, furs, and expensive foods.
+
+\subsection{High Income Elasticity Implies High Price
+Elasticity}\label{high-income-elasticity-implies-high-price-elasticity}
+
+In the discussion of the Law of Demand in
+Chapter~\ref{sec-supply_demand}, we saw that the effect of a change in
+the price of a good on its quantity demanded is the sum of:
+
+\begin{itemize}
+\tightlist
+\item
+  The substitution effect, and
+\item
+  The income effect.
+\end{itemize}
+
+The higher the IED, the bigger the income effect. Therefore, the higher
+the IED, the higher the PED. Low IED implies low PED. High IED implies
+high PED.
+
+\section{Computing percentage
+increases}\label{computing-percentage-increases}
+
+Consider the data in the following table:
+
+\begin{longtable}[]{@{}ll@{}}
+\caption{Hypothetical Data}\label{tbl-pct_increases}\tabularnewline
+\toprule\noalign{}
+\% Increase in Price & \% Increase in Quantity Demanded \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\% Increase in Price & \% Increase in Quantity Demanded \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+10 & -20 \\
+\end{longtable}
+
+The price elasticity of demand is easy to calculate in this case, as
+shown in Equation~\ref{eq-PED_computed}.
+
+Now consider the slightly different case of two rows of a demand
+schedule:
+
+But how do we calculate the PED in this case? Now, we'll need to
+calculate the percent increases from the data And then plug them into
+the PED formula Price Elasticity of Demand: Calculation Step 1: We
+arbitrarily call one of the rows Row A and the other row Row B. Step 2:
+The percentage increase in price is: ``Increase'' /``Average'' ×100
+(𝑃\_𝐵−𝑃\_𝐴)/((𝑃\_𝐵+𝑃\_𝐴)/2)×100
+
+(4−2)/((4+2)/2)×100=2/3×100=𝟔𝟔.𝟕
+
+Price Elasticity of Demand: Calculation Step 1: We arbitrarily call one
+of the rows Row A and the other row Row B. Step 3: The percentage
+increase in quantity demanded is: ``Increase'' /``Average'' ×100
+(〖𝑄𝐷〗\_𝐵−〖𝑄𝐷〗\_𝐴)/((〖𝑄𝐷〗\_𝐵+〖𝑄𝐷〗\_𝐴)/2)×100
+
+(8−10)/((8+10)/2)×100=(−2)/9×100=−𝟐𝟐.𝟐
+
+Price Elasticity of Demand: Calculation The price elasticity of demand
+is now easy to calculate ``PED''=−``\% increase in Quantity Demanded''
+/``\% increase in Price'' =−(−22.2)/66.7=0.33 So, a 66.6 percent
+increase in price caused a 22.2 percent decrease in the quantity
+demanded Therefore, a 1 percent increase in price caused a 0.33 percent
+decrease in the quantity demanded That's the PED
+
+\subsection{Price Elasticity of Demand: Midpoint
+Formula}\label{price-elasticity-of-demand-midpoint-formula}
+
+The formula used here is called the midpoint formula. Note that you'll
+get the same result if you switched the row names. Try it! Price
+Elasticity of Demand: Example Calculate the PED using the two points
+highlighted on this demand curve Step 1: Turn the prices and quantities
+for the two highlighted points into a demand schedule Step 2: Then
+calculate PED as in the previous example Price Elasticity of Demand:
+Example The percentage increase in price is:
+(𝑃\_𝐵−𝑃\_𝐴)/((𝑃\_𝐵+𝑃\_𝐴)/2)×100=(4−5)/((4+5)/2)×100=−22.2 The percentage
+increase in quantity demanded is:
+(〖𝑄𝐷〗\_𝐵−〖𝑄𝐷〗\_𝐴)/((〖𝑄𝐷〗\_𝐵+〖𝑄𝐷〗\_𝐴)/2)×100=(100−50)/((100+50)/2)×100=66.7
+``PED''=−``\% increase in Quantity Demanded'' /``\% increase in Price''
+=−66.7/(−22.2)=3
+
+\subsection{PED and the shape of the demand
+curve}\label{ped-and-the-shape-of-the-demand-curve}
+
+Elastic, Unit-Elastic and Inelastic Demand Demand can be Inelastic
+Unit-elastic Elastic \ldots{} depending on the magnitude of the P.E.D.
+Inelastic Demand: P.E.D. \textless{} 1 Suppose: Price increases by 10\%
+Quantity demanded decreases by 5\%. \% change in quantity is smaller
+than the \% change in price Here P.E.D. = -(-5/10) = 0.5 \textless{} 1
+Recall that I am ignoring the negative sign of the P.E.D. In this case,
+we say demand is inelastic Unit-Elastic Demand: P.E.D. = 1 Suppose:
+Price increases by 10\% Quantity demanded decreases by 10\%. \% change
+in quantity is equal to the \% change in price Here P.E.D. = -(-10/10) =
+1 Recall that I am ignoring the negative sign of the P.E.D. In this
+case, we say demand is unit-inelastic Elastic Demand: P.E.D.
+\textgreater{} 1 Suppose: Price increases by 10\% Quantity demanded
+decreases by 30\%. \% change in quantity is greater than the \% change
+in price Here P.E.D. = -(-30/10) = 3 \textgreater{} 1 Recall that I am
+ignoring the negative sign of the P.E.D. In this case, we say demand is
+elastic Perfectly Inelastic and Perfectly Elastic Demand Key Definition:
+Perfectly Inelastic Demand Quantity demanded does not respond at all to
+price changes. P.E.D. = 0. Key Definition: Perfectly Elastic Demand
+Quantity demanded changes infinitely with any change in price. P.E.D. =
+infinity. The Variety of Demand Curves Because P.E.D. measures how
+strongly quantity demanded responds to the price, it is closely related
+to the slope of the demand curve. Key Idea: The higher the price
+elasticity of demand, the flatter the demand curve.
+
+\subsection{PED affects the link between price and sales
+revenue}\label{ped-affects-the-link-between-price-and-sales-revenue}
+
+Total revenue (TR) is the amount received by sellers from the sale of a
+good. It is usually computed as the price of the good (P) times the
+quantity sold (Q): \(TR=P\times Q\).
+
+\subsubsection{Total Revenue,
+Graphically}\label{total-revenue-graphically}
+
+Elasticity and Total Revenue: Inelastic Demand Suppose demand is
+inelastic Specifically, suppose Price increases by 10\%, and Quantity
+demanded decreases by 4\%. Elasticity and Total Revenue: Elastic Demand
+Suppose demand is elastic Specifically, suppose Price increases by 10\%,
+and Quantity demanded decreases by 25\%. Elasticity and Total Revenue:
+Unit-elastic Demand Suppose demand is unit-elastic Specifically, suppose
+Price increases by 10\%, and Quantity demanded decreases by 10\%.
+
+\subsubsection{Elasticity of a Linear Demand
+Curve}\label{elasticity-of-a-linear-demand-curve}
+
+Note that demand can change from elastic to unit-elastic to inelastic as
+the price changes. That is, in addition to the other factors discussed
+before, PED also depends on the price.
+
+\section{Other important
+elasticities}\label{other-important-elasticities}
+
+\subsection{Cross Price Elasticity of Demand
+(CPED)}\label{cross-price-elasticity-of-demand-cped}
+
+Key Definition: The cross price elasticity of demand (C.P.E.D.) measures
+the responsiveness of the quantity demanded of one good to changes in
+the price of some other good. ``CPED''=``\% increase in the quantity
+demanded of Good X'' /``\% increase in the price of Good Y'' Suppose:
+The price of Coke increases 2\%, and The consumption of Pepsi increases
+20\%. The C.P.E.D. for Coke with respect to Pepsi is +20/+2 = +10.
+Substitutes: C.P.E.D. \textgreater{} 0 Key Definition: When the C.P.E.D.
+for one good with respect to another is positive, the two goods are
+called substitutes. In the last slide's example, the C.P.E.D. for Coke
+with respect to Pepsi was +10, which is positive. This confirms our
+common-sense intuition that Coke and Pepsi are substitutes. Complements:
+C.P.E.D. \textless{} 0 Key Definition: When the C.P.E.D. for one good
+with respect to another is negative, the two goods are called
+complements. Suppose: the price of gasoline increases 50\% the sale of
+cars decreases 10\% The C.P.E.D. is -10/+50 = -0.2, which is negative.
+This is what one would expect, given our common-sense notion that gas
+and cars are complements.
+
+\subsection{Price Elasticity of Supply
+(PES)}\label{price-elasticity-of-supply-pes}
+
+Price elasticity of supply is a measure of how strongly the quantity
+supplied of a good responds to a change in the price of that good. More
+specifically, the price elasticity of supply is the percent increase in
+the quantity supplied of a commodity when there is a one percent
+increase in the price of the commodity, and all other factors that
+affect quantity supplied are unchanged.
+
+\subsubsection{Determinants of Elasticity of
+Supply}\label{determinants-of-elasticity-of-supply}
+
+What makes the price elasticity of supply high in some cases and low in
+others?
+
+The price elasticity of supply is high if the production technology
+enables sellers to change production easily.
+
+Beach-front land has inelastic supply. Books, cars, or manufactured
+goods have elastic supply. if suppliers have time to respond to a price
+change So, supply is more elastic in the long run.
+
+\section{APPLICATIONS OF SUPPLY, DEMAND, AND
+ELASTICITY}\label{applications-of-supply-demand-and-elasticity}
+
+\subsection{Can good news for farming be bad news for
+farmers?}\label{can-good-news-for-farming-be-bad-news-for-farmers}
+
+What happens to wheat farmers and the market for wheat when university
+agronomists discover a new wheat hybrid that is more productive than
+existing varieties?
+
+\subsection{How does the effect of coordinated cuts to crude oil
+production affect oil
+prices?}\label{how-does-the-effect-of-coordinated-cuts-to-crude-oil-production-affect-oil-prices}
+
+\subsection{How does the debate over drugs legalization depend on the
+PED for
+drugs?}\label{how-does-the-debate-over-drugs-legalization-depend-on-the-ped-for-drugs}
+
+\subsection{Housing in the Bay Area}\label{housing-in-the-bay-area}
+
+\section{Video}\label{video}
+
+\begin{itemize}
+\tightlist
+\item
+  https://youtu.be/0Flsg\_mzG-M
+\item
+  https://youtu.be/AcVaTIW-DGQ
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{Data}\label{data}
+
+\section{Description}\label{description}
+
+\section{Missing value analysis}\label{missing-value-analysis}
+
+\bookmarksetup{startatroot}
+
+\chapter{Results}\label{results}
+
+\bookmarksetup{startatroot}
+
+\chapter{Interactive graph}\label{interactive-graph}
+
+\phantomsection\label{plot}
+
+\bookmarksetup{startatroot}
+
+\chapter{Conclusion}\label{conclusion}
+
+
+\backmatter
+
+\printindex
+
+\end{document}

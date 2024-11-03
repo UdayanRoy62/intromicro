@@ -1,0 +1,174 @@
+# Supply, Demand, and Government Policies {#sec-supply_demand_government}
+
+In a free-market system, the prices of goods and the quantities traded are determined by market forces of supply and demand. While the market outcome may have desirable properties, not everyone may be happy with it. Consequently, governments may impose:
+
+* Price control 
+* Taxes and subsidies
+
+## Price Control
+
+Price control is usually enacted when policymakers believe that the market price is unfair to buyers or sellers.
+
+The government can enact:
+
+* Price ceilings, and 
+* Price floors. 
+
+A price ceiling is a legal maximum on the price at which a good can be sold. 
+In extreme cases, the sale of a particular commodity for cash may be declared illegal; this is equivalent to a price ceiling of zero. Examples: sex work, ticket scalping, sale of kidneys and other organs, etc.
+
+A price floor is a legal minimum on the price at which a good can be sold. Rent control is an important example.
+
+[News coverage](https://econ-topics.blogspot.com/2022/01/price-control.html)
+
+### Price Ceiling 
+
+A price ceiling is:
+
+* not binding if it is higher than the equilibrium price. 
+* binding if it is lower than the equilibrium price. 
+
+Key Idea: A binding price ceiling creates a shortage. 
+
+A *shortage* is an outcome such that the quantity demanded for some commodity exceeds the quantity supplied.
+
+#### CASE STUDY: Lines at the Gas Pump
+
+In 1973, the Organization of Petroleum Exporting Countries (OPEC) raised the price of crude oil in world markets. Crude oil is the major input in gasoline, so the higher oil prices reduced the supply of gasoline.
+
+This led to long lines of cars at gas pumps. Why? Economists blame government regulations that limited the price that oil companies could charge for gasoline.
+
+#### CASE STUDY: Rent Control in the Short Run and Long Run
+
+Rent controls are ceilings placed on the rents that landlords may charge their tenants. The goal of rent control policy is to help the poor by making housing more affordable. However, economists tend not to like rent control. One economist called rent control “the best way to destroy a city, other than bombing.”
+
+There is an alternative to rent control that may help poor people without causing a housing shortage: taxpayer-funded housing subsidies. There would be no shortage. The quantity supplied would equal quantity demanded. There would be none of the other problems associated with shortages. Specifically, the help would go to the poor and not to those who do not need the help.
+
+However, the tax imposed to pay for the housing subsidies would create problems too.
+
+### Price floors
+
+A price floor is:
+
+* not binding, if set below the equilibrium price.
+* Binding, if set above the equilibrium price.
+
+Key Idea: A binding price floor causes a surplus. 
+
+A *surplus* is an outcome in which the quantity supplied of a commodity is higher than the quantity demanded. This necessitates *non-price rationing*, which is an alternative mechanism for rationing the good, using discrimination criteria.
+
+Examples of price floors are the minimum wage and agricultural price supports.
+
+#### The Minimum Wage
+
+An important example of a price floor is the minimum wage.  Minimum wage laws dictate the lowest wage any employer may pay.^[Here are [current US federal and state minimum wage rates](http://www.dol.gov/whd/minwage/america.htm) and here are [historical data on minimum wage rates](http://www.dol.gov/whd/state/stateMinWageHis.htm).]
+
+Wage subsidies are an alternative to the minimum wage. An example is the earned income tax credit. 
+
+Though better than the minimum wage in some ways, these subsidies are not perfect. They must be paid for by raising taxes, and taxes can have negative effects of their own.
+
+### Health Care: a price-control exception
+
+In several advanced countries, such as Japan, the prices of pharmaceutical drugs and medical services are controlled by the government. These governments have decided that the market for health care is in many ways different and that the theory of price control discussed in this chapter is not applicable. When a market is not perfectly competitive, price control may have desirable effects.
+
+## Taxes and subsidies
+
+### Taxes
+
+Key Idea: Governments impose taxes:
+
+* to raise revenue for public projects and 
+* to discourage certain activities that society considers harmful
+* to make society less unfair
+
+While we will be discussing several negative effects of taxes, they are often essential. Oliver Wendell Holmes, Jr., associate justice of the US Supreme Court, once said: “Taxes are the price we pay for a civilized society.” 
+
+Key Idea: When a good is taxed"
+
+* the quantity bought and sold is reduced
+* buyers and sellers are both adversely affected
+* the government earns revenue
+
+A tax could be imposed on:
+
+* buyers, or
+* sellers, or 
+* both
+
+Key Idea: When there is a tax, the price that buyers pay is no longer the same as the price that sellers get.
+
+Suppose buyers must pay tax \$0.50 per ice cream cone. Suppose sellers, who don’t pay the tax, charge \$2.00 per cone. Then, the buyers pay \$2.50 per cone, including the tax. Note that the price paid by the buyer = the price received by the seller + the tax.
+
+Suppose sellers pay tax \$0.50 per ice cream cone. Suppose buyers, who don’t pay the tax, pay \$2.50 per cone. Then, the sellers get \$2.00 per cone, after paying the tax. Note that the price paid by the buyer = the price received by the seller + the tax.
+
+Key Idea: The price paid by the buyer = the price received by the seller + the tax.
+
+Another condition that must also be satisfied is that:
+
+Key Idea: In equilibrium, the quantity demanded at the price paid by buyers must be equal to the quantity supplied at the price received by sellers.
+
+#### What is the impact of a tax? 
+
+When a good is taxed:
+
+* the quantity sold is smaller. 
+* Buyers and sellers  share the tax burden.
+* Buyers pay a higher price
+* Sellers receive a lower price
+
+#### Legal and Economic Incidence
+
+Key Idea: Whether the law puts the tax on buyers or on sellers is economically irrelevant. The economic effect of a tax is the same (in every way) in either case.
+
+#### Elasticity and Tax Incidence
+
+In what proportion is the burden of the tax divided between buyers and sellers? Which side bears more of the burden?
+
+The answer depends on the price elasticity of demand and the price elasticity of supply.
+
+Key Idea: The economic burden of a tax falls more heavily on the side of the market that is less elastic.
+
+In 1990, the US Congress adopted a new tax on luxury items, such as yachts. The goal was to raise revenue from the rich. The demand for yachts is price elastic, because the rich have lots of substitutes to sailing yachts when it comes to entertainment. The supply of yachts is inelastic, especially in the short run. Therefore, the burden of the tax on yachts fell on the workers who make yachts and not on the rich. The tax was repealed in 1993.
+
+### Subsidies
+
+Key Definition: A subsidy is the opposite of a tax. Here the government is paying people to reward them for taking some action.
+
+Key Idea: An activity may be subsidized:
+
+* To encourage an activity that society considers worthy
+* To help people who need help
+A subsidy will have to be paid for with tax revenues
+
+A subsidy could be given to:
+
+* Buyers,
+* Sellers, or
+* Both 
+
+Key Result: Whatever the case, the price received by sellers = the price paid by buyers + the subsidy.
+
+But there’s another requirement: In equilibrium, the quantity demanded at the price paid by buyers must be equal to the quantity supplied at the price received by sellers.
+
+The effect of a subsidy, for buyers or for sellers, is:
+
+* The equilibrium quantity increases
+* The price paid by buyers falls (So, buyers gain.)
+* The price received by sellers increases (So, sellers gain too.)
+* The buyers’ gain + sellers’ gain = the total subsidy
+* The government must raise taxes -- or cut spending -- to pay for the subsidy
+
+Which side gains how much depends on the price elasticities of demand and supply. As in the case of taxes, the effect of a subsidy is higher for whichever side -- demand or supply -- has the lower price elasticity. For example, if demand is inelastic and supply is elastic, the bulk of the benefits of the subsidy will go to the buyers.
+
+## Summary
+
+* Price controls include price ceilings and price floors.
+* A price ceiling is a legal maximum on the price of a good or service.  An example is rent control.
+* A price floor is a legal minimum on the price of a good or a service.  An example is the minimum wage.
+* Taxes are used to raise revenue for public purposes.
+* When the government imposes a tax on a good, the equilibrium quantity of the good falls.
+* A tax on a good places a wedge between the price paid by buyers and the price received by sellers.
+* The incidence of a tax refers to who bears the burden of a tax.
+* The incidence of a tax does not depend on whether the tax is imposed on buyers or sellers.
+* The incidence of the tax depends on the price elasticities of supply and demand.
+* The burden tends to fall on the side of the market that is less elastic.
